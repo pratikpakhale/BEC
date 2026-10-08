@@ -12,7 +12,7 @@
  * half-applied deploy ships a broken image.
  */
 
-const OWNER = "langwise";
+const OWNER = "pratikpakhale";
 const REPO = "BEC";
 
 /**
