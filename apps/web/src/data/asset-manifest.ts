@@ -1452,6 +1452,8 @@ export const manifest = {
   "departments/eee/cine1772.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/cine1772.webp",
   "departments/eee/cine1775.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/cine1775.webp",
   "departments/eee/cine1785.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/cine1785.webp",
+  "departments/eee/curriculum/scheme-and-syllabus-2024-25-admitted-batch-04-07-2026-a65kes.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/curriculum/scheme-and-syllabus-2024-25-admitted-batch-04-07-2026-a65kes.pdf",
+  "departments/eee/curriculum/scheme-and-syllabus-2025-26-admitted-batch-05-08-2026-kmby0i.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/curriculum/scheme-and-syllabus-2025-26-admitted-batch-05-08-2026-kmby0i.pdf",
   "departments/eee/docs/alumni-webinar-series.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/docs/alumni-webinar-series.pdf",
   "departments/eee/docs/association.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/docs/association.pdf",
   "departments/eee/docs/best-practices.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/eee/docs/best-practices.pdf",
