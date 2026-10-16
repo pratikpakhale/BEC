@@ -232,14 +232,8 @@
       {
         "name": "Dr. Raghuram L. Naik",
         "designation": "Professor (CAS) & HoD",
-        "cv": "departments/eee/faculty/cv/raghuram-l-naik.pdf",
+        "cv": "departments/eee/faculty/cv/resume-rln-final-1-3mlyq8.pdf",
         "photo": "governance/hod/eee/dr-r-l-naik.webp"
-      },
-      {
-        "name": "Prof. Rajshekhar S. Allurkar",
-        "designation": "Associate Professor",
-        "cv": "departments/eee/faculty/cv/rajshekhar-s-allurkar.pdf",
-        "photo": "departments/eee/faculty/rajshekhar-s-allurkar-v2.webp"
       },
       {
         "name": "Dr. Basanagouda Ronad",
@@ -291,17 +285,19 @@
       },
       {
         "name": "Dr. G. Suchitra",
-        "designation": "Associate Professor",
-        "photo": "departments/eee/faculty/g-suchitra.webp"
+        "designation": "Associate Professor (Contractual)",
+        "photo": "departments/eee/faculty/g-suchitra.webp",
+        "cv": "departments/eee/faculty/cv/g-suchittra-bio-data-1-8och6f.pdf"
       },
       {
         "name": "Prof. R. G. Patil",
-        "designation": "Associate Professor",
-        "photo": "departments/eee/faculty/r-g-patil.webp"
+        "designation": "Associate Professor (Contractual)",
+        "photo": "departments/eee/faculty/r-g-patil.webp",
+        "cv": "departments/eee/faculty/cv/resume-rgp-1-srfro5.pdf"
       },
       {
         "name": "Prof. S. M. Iddalagi",
-        "designation": "Associate Professor",
+        "designation": "Associate Professor (Contractual)",
         "photo": "departments/eee/faculty/s-m-iddalagi.webp"
       }
     ],
