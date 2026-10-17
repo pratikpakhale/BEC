@@ -22,6 +22,7 @@ import {
   Award,
   Image as ImageIcon,
   ExternalLink,
+  ChevronDown,
   LucideIcon,
 } from "lucide-react";
 
@@ -49,6 +50,7 @@ interface SidebarItem {
     label: string;
     icon: string;
     externalUrl?: string;
+    subItems?: { label: string; externalUrl: string }[];
 }
 
 interface DepartmentSidebarProps {
@@ -94,6 +96,7 @@ function SectionLinks({
         const Icon = iconMap[item.icon] || Home; // Fallback to Home if icon not found
         const isActive = activeId === item.id;
         const href = departmentSectionHref(basePath, item.id, defaultId);
+        const hasSubItems = Boolean(item.subItems?.length);
 
         const linkClassName = cn(
           "group flex shrink-0 items-center text-sm font-medium transition-all duration-200",
@@ -121,31 +124,39 @@ function SectionLinks({
                   <ExternalLink className={cn("w-3 h-3 shrink-0", isActive ? "text-white/70" : "text-gray-400 group-hover:text-primary")} />
                 )}
             </div>
-            {variant === "sidebar" && isActive && (
-              <motion.div
-                layoutId="dept-nav-indicator"
-                className="w-1.5 h-1.5 rounded-full bg-white shrink-0 ml-2"
-              />
+            {variant === "sidebar" && (hasSubItems || isActive) && (
+              <div className="ml-2 flex shrink-0 items-center gap-1.5">
+                {hasSubItems && (
+                  <ChevronDown
+                    className={cn(
+                      "h-3.5 w-3.5 transition-transform duration-200 group-hover/item:rotate-180 group-focus-within/item:rotate-180",
+                      isActive ? "text-white/80" : "text-gray-400 group-hover:text-primary",
+                    )}
+                  />
+                )}
+                {isActive && (
+                  <motion.div
+                    layoutId="dept-nav-indicator"
+                    className="h-1.5 w-1.5 shrink-0 rounded-full bg-white"
+                  />
+                )}
+              </div>
             )}
           </>
         );
 
         // External URLs open in a new tab
-        if (item.externalUrl) {
-          return (
-            <a
-              key={item.id}
-              href={item.externalUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className={linkClassName}
-            >
-              {innerContent}
-            </a>
-          );
-        }
-
-        return (
+        const linkElement = item.externalUrl ? (
+          <a
+            key={item.id}
+            href={item.externalUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={linkClassName}
+          >
+            {innerContent}
+          </a>
+        ) : (
           <Link
             key={item.id}
             href={href}
@@ -163,6 +174,58 @@ function SectionLinks({
           >
             {innerContent}
           </Link>
+        );
+
+        if (!hasSubItems) {
+          return linkElement;
+        }
+
+        if (variant === "chip") {
+          return (
+            <div key={item.id} className="contents">
+              {linkElement}
+              {item.subItems!.map((sub) => (
+                <a
+                  key={sub.label}
+                  href={sub.externalUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group flex shrink-0 items-center gap-2 rounded-full border border-stone-200 bg-white px-3.5 py-2 text-sm font-medium text-gray-600 transition-all duration-200 hover:border-primary/40 hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                >
+                  <FileText className="h-4 w-4 shrink-0 text-gray-400 group-hover:text-primary" />
+                  <span className="whitespace-nowrap">{sub.label}</span>
+                  <ExternalLink className="h-3 w-3 shrink-0 text-gray-400 group-hover:text-primary" />
+                </a>
+              ))}
+            </div>
+          );
+        }
+
+        return (
+          <div key={item.id} className="group/item flex flex-col">
+            {linkElement}
+            <div className="grid grid-rows-[0fr] transition-[grid-template-rows] duration-200 ease-out group-hover/item:grid-rows-[1fr] group-focus-within/item:grid-rows-[1fr]">
+              <div className="overflow-hidden">
+                <div className="mt-1 ml-6 flex flex-col space-y-1 border-l-2 border-primary/25 pl-3">
+                  {item.subItems!.map((sub) => (
+                    <a
+                      key={sub.label}
+                      href={sub.externalUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group/sub flex w-full items-center justify-between rounded-md px-3 py-2 text-xs font-medium text-gray-600 transition-colors duration-150 hover:bg-orange-50 hover:text-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                    >
+                      <span className="flex min-w-0 items-center gap-2">
+                        <FileText className="h-3.5 w-3.5 shrink-0 text-gray-400 group-hover/sub:text-primary" />
+                        <span className="truncate">{sub.label}</span>
+                      </span>
+                      <ExternalLink className="h-3 w-3 shrink-0 text-gray-400 group-hover/sub:text-primary" />
+                    </a>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         );
       })}
     </nav>

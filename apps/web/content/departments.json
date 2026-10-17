@@ -9495,6 +9495,32 @@
           {
             "title": "Research Labs (RLN & BSH) — Details",
             "file": "departments/eee/docs/rln-bsh-labs.pdf"
+          },
+          {
+            "title": "Research Grants Received",
+            "file": "departments/eee/docs/research-grants.pdf"
+          }
+        ],
+        "placements": [
+          {
+            "title": "Graduated Year 2025-26",
+            "file": "departments/eee/docs/placements-2025-26.pdf"
+          },
+          {
+            "title": "Graduated Year 2024-25",
+            "file": "departments/eee/docs/placements-2024-25.pdf"
+          },
+          {
+            "title": "Graduated Year 2023-24",
+            "file": "departments/eee/docs/placements-2023-24.pdf"
+          },
+          {
+            "title": "Graduated Year 2022-23",
+            "file": "departments/eee/docs/placements-2022-23.pdf"
+          },
+          {
+            "title": "Graduated Year 2021-22",
+            "file": "departments/eee/docs/placements-2021-22.pdf"
           }
         ]
       },
@@ -9836,6 +9862,20 @@
           "category": "International Journals",
           "years": [
             {
+              "year": "2026",
+              "items": [
+                "Dr. R. L. Naik: Suhaib Mohammed and Raghuram L. Naik, “Performance Evaluation and Experimental Validation of Hybrid Glass-Carbon Fibre Reinforced Composites for Wind Turbine Blade Applications,” Engineering Research Express, published on 30 September 2026.",
+                "Dr. B. F. Ronad: Prashant Kadi and Basanagouda Ronad, “Design Development and Techno-Economic Assessment of a Solar-Powered Three-Row Chickpea Leaf Nipping and Collecting Machine for Sustainable Farming,” International Journal of Applied Power Engineering, Vol. 15, Issue 3, September 2026."
+              ]
+            },
+            {
+              "year": "2025",
+              "items": [
+                "Dr. B. F. Ronad: Shivappa V. Sabarad and Basanagouda F. Ronad, “A Century of Reliability: Long-Term Performance of Distribution Transformers in Koppal District,” IEEMA Journal, December 2025."
+              ]
+            },
+            {
+              "year": "Earlier Publications",
               "items": [
                 "Suhaib Mohammed, Raghuram L. Naik, “Multi-objective optimization of glass/carbon hybrid composites for small wind turbine blades using extreme mixture design response surface methodology”, The Korean Society for Composite Materials and IOP Publishing Limited, Funct. Compos. Struct. 6 (2024) 025009.",
                 "Basavaraju S. Hadapad and Raghuram L. Naik, “A simple approach for the computation of magnetic characteristics of 4-phase switched reluctance motor”, International Journal of Power Electronics and Drive Systems (IJPEDS), Vol. 15, No. 1, March 2024, pp. 136-146.",
@@ -9862,10 +9902,25 @@
           "category": "International Conferences",
           "years": [
             {
+              "year": "2026",
               "items": [
-                "S. Y. Goudappanavar, D. Gowda and S. Kandagal, \"AI Based Development and Prediction of Energy Prosumers,\" 2025 3rd International Conference on Integrated Circuits and Communication Systems (ICICACS), Raichur, India, 2025, pp. 1-7, doi: 10.1109/ICICACS65178.2025.10968430.",
-                "S. Y. Goudappanavar, Santhoshkumar S. Kandagal, Mahantesh L. Chikkadesai, Basavaraju S. Hadapad and Pradeepkumar Nargund, “Performance Evaluation and Energy Flow Optimization of a Grid-Connected 250 kWp Rooftop Solar PV System in Institute Distribution Network”, 2025 IEEE North Karnataka Subsection Flagship International Conference (NKCon), Sept. 2025, KLEIT, Hubballi.",
-                "S. Y. Goudappanavar, S. Kandagal and D. Gowda, \"Development and Analysis of Power Balancing Control for nWTG in Secondary Distribution System,\" 2025 4th International Conference on Distributed Computing and Electrical Circuits and Electronics (ICDCECE), Ballari, India, 2025, pp. 1-5, doi: 10.1109/ICDCECE65353.2025.11035168.",
+                "Dr. B. F. Ronad: Hamjadali A. Umachagi and Basanagouda F. Ronad, “Review of Economically Energy Efficient Wind and Solar PV Hybrid Energy System for Irrigation Pumps Employed in Micro Irrigation Systems,” International Conference on Multidisciplinary Innovations for Smart & Sustainable Future (MISSF), Dhule, Maharashtra, April 2026."
+              ]
+            },
+            {
+              "year": "2025",
+              "items": [
+                "Dr. R. L. Naik: R. L. Naik and B. S. Hadapad, “Implementation of FPGA Based Controller for DC Drives Employed in Industrial Applications,” IEEE North Karnataka Subsection Flagship International Conference (NKCon), Hubballi, 2025.",
+                "Dr. B. F. Ronad: Basanagouda Ronad et al., “Development of Interactive Voice Responsive System for Automated College Information Assistance Using GSM Technology,” IEEE NKCon-2025, Hubballi, September 2025.",
+                "Dr. B. F. Ronad: H. A. Umachagi et al., “Solar Powered Smart Agriculture System and Protection of Crops using Smart Fencing System,” International Conference on Soft Computing for Security Applications, Salem, August 2025.",
+                "Dr. S. Y. Goudappanavar: S. Y. Goudappanavar, D. Gowda and S. Kandagal, “AI Based Development and Prediction of Energy Prosumers,” 2025 3rd International Conference on Integrated Circuits and Communication Systems (ICICACS), Raichur, India, 2025, pp. 1-7, doi: 10.1109/ICICACS65178.2025.10968430.",
+                "Dr. S. Y. Goudappanavar: S. Y. Goudappanavar, Santhoshkumar S. Kandagal, Mahantesh L. Chikkadesai, Basavaraju S. Hadapad and Pradeepkumar Nargund, “Performance Evaluation and Energy Flow Optimization of a Grid-Connected 250 kWp Rooftop Solar PV System in Institute Distribution Network,” 2025 IEEE North Karnataka Subsection Flagship International Conference (NKCon), Sept. 2025, KLEIT, Hubballi.",
+                "Dr. S. Y. Goudappanavar: S. Y. Goudappanavar, S. Kandagal and D. Gowda, “Development and Analysis of Power Balancing Control for nWTG in Secondary Distribution System,” 2025 4th International Conference on Distributed Computing and Electrical Circuits and Electronics (ICDCECE), Ballari, India, 2025, pp. 1-5, doi: 10.1109/ICDCECE65353.2025.11035168."
+              ]
+            },
+            {
+              "year": "Earlier Publications",
+              "items": [
                 "Basavaraju S. Hadapad and Raghuram L. Naik, “Development of PD-PWM Technique for 5-Level Cascaded H-Bridge Inverter using FPGA for SPV Systems”, 1st International Conference on Sustainable Solutions in Engineering and Technology, August 29th and 30th, 2024, BEC, Bagalkote, India.",
                 "Basanagouda Ronad, Mallikarjun Bhirade, Vireshkumar Mathad, Mukta Bannur, Shivappa Sobarad, Suresh H. Jangamshetti, “Dynamic Power Factor Correction using FC TCR – A Case Study of Academic Campus Distribution Network”, IEEE NKCon-2024, 3rd Edition of IEEE NKSS Flagship International Conference, BEC Bagalkote, 21-22 September 2024.",
                 "Sangamesh Y. Goudappanavar, Suresh H. Jangamshetti, Shrishail Majjigi, Basanagouda F. Ronad, “Development and Analysis of Wake Effect of Vertical Axis Wind Turbine Generator on HAWTG based on Experimental Method”, 3rd International Conference on Advances in Data-driven Computing and Intelligent Systems (ADCIS 2024), BITS Pilani, Goa, 20-21 September 2024.",
@@ -9902,9 +9957,21 @@
           "category": "Book Chapters",
           "years": [
             {
+              "year": "2026",
               "items": [
-                "Goudappanavar, S.Y., Nayak, S.G., Preetha, P.S. (2026). Development and Performance Analysis of ATS for IoT-Enabled SPV-Based RO Water Purifier in Academic Campus. In: Upadhyaya, T., Mahmud, M., Palandoken, M. (eds) Proceedings of International Conference on Artificial Intelligence, Communication Technologies and Smart Cities. ICACS 2025. Lecture Notes in Networks and Systems, vol 1533. Springer, Singapore. https://doi.org/10.1007/978-981-96-9196-8_8",
-                "Goudappanavar Sangamesh Y., Jangamshetti, S.H. (2025). AI Based Phase Identification to Integrate Distributed Energy Resources in Distribution Network. Innovations in Electrical and Electronics Engineering. ICEEE 2024. Lecture Notes in Electrical Engineering, vol 1294. Springer, Singapore. https://doi.org/10.1007/978-981-97-9037-1_7. (Q3)",
+                "Dr. B. F. Ronad: Spurthi S. et al., “Design, Development and Performance Testing of Multi-Task Multi-Tank Water Level Controller with Automated Power Supply for Multistoried Buildings,” Advances in Data-Driven Computing and Intelligent Systems, Lecture Notes in Networks and Systems, Vol. 1445, Springer, Singapore, January 2026.",
+                "Dr. S. Y. Goudappanavar: Sangamesh Y. Goudappanavar, S. G. Nayak and P. S. Preetha, “Development and Performance Analysis of ATS for IoT-Enabled SPV-Based RO Water Purifier in Academic Campus,” In: Upadhyaya, T., Mahmud, M., Palandoken, M. (eds) Proceedings of International Conference on Artificial Intelligence, Communication Technologies and Smart Cities (ICACS 2025), Lecture Notes in Networks and Systems, Vol. 1533, Springer, Singapore, 2026. https://doi.org/10.1007/978-981-96-9196-8_8"
+              ]
+            },
+            {
+              "year": "2025",
+              "items": [
+                "Dr. S. Y. Goudappanavar: Sangamesh Y. Goudappanavar and Suresh H. Jangamshetti, “AI Based Phase Identification to Integrate Distributed Energy Resources in Distribution Network,” Innovations in Electrical and Electronics Engineering (ICEEE 2024), Lecture Notes in Electrical Engineering, Vol. 1294, Springer, Singapore, 2025. https://doi.org/10.1007/978-981-97-9037-1_7. (Q3)"
+              ]
+            },
+            {
+              "year": "Earlier Publications",
+              "items": [
                 "Sangamesh Y. Goudappanavar, Suresh H. Jangamshetti, Shrishail Majjigi and Basanagouda Ronad “Development and Analysis of Wake Effect of Vertical Axis Wind Turbine Generator on HAWTG based on Experimental Method”, Lecture Notes in Networks and Systems, Inderscience, BITS Pilani K K Birla Goa, Springer Book Series, Sep. 2024.",
                 "Basanagouda Ronad, Sangamesh Y. Goudappanavar, Basavaraj Hugar, Santosh Kumbalavati, Kiran Bendigeri, “IOT Based Control mechanism for Solar PV Water Pumps Employed for Water Distribution in Academic Campus”, Lecture Notes in Networks and Systems, Inderscience, BITS Pilani K K Birla Goa, Springer Book Series, Sep. 2024.",
                 "Basanagouda F Ronad, “Design, Simulation and Development of DC-DC Converter for SPV Powered DC Distribution System in Domestic Loads”, Lecture Notes in Electrical Engineering- volume 844, Springer Publishers - Singapore, ISSN 1876-1100, ISBN: 978-981-16-8862-1, Feb 2022.",
@@ -10337,11 +10404,34 @@
         "labsUnderFacilities": true,
         "sectionTitles": {
           "research": "Research & Facilities",
-          "facilities": "Laboratories"
+          "facilities": "Laboratories",
+          "publications": "Faculty / Student EEED Publications"
         },
         "sectionNavLabels": {
           "research": "Research & Facilities"
-        }
+        },
+        "sectionOrder": [
+          "home",
+          "about",
+          "academics",
+          "curriculum",
+          "faculty",
+          "staff",
+          "governance",
+          "research",
+          "research-achievements",
+          "publications",
+          "achievements",
+          "alumni",
+          "facilities",
+          "activities",
+          "placements",
+          "association",
+          "mou",
+          "newsletters",
+          "photo-gallery",
+          "contact"
+        ]
       }
     },
     "electronics-and-computer-engg": {
