@@ -220,7 +220,13 @@ export interface DepartmentData {
   /** Captioned group-photo banner shown at the very end of the Home tab (e.g. the graduating batch). */
   homeGroupPhoto?: SectionImage;
 
-  sidebar: { id: string; label: string; icon: string; externalUrl?: string }[];
+  sidebar: {
+    id: string;
+    label: string;
+    icon: string;
+    externalUrl?: string;
+    subItems?: { label: string; externalUrl: string }[];
+  }[];
 
   sections?: DepartmentSection[];
 }
@@ -791,6 +797,17 @@ function buildSections(contentKey: string, content: DepartmentContent): Departme
         .filter((g) => g.images.length),
       groupPhoto: sectionImage(content.placementsPhoto, `${content.name} — placed students`),
     });
+  } else {
+    const placementDocs = resolveDocuments(content.sectionDocuments?.placements);
+    if (placementDocs.length) {
+      sections.push({
+        id: "placements",
+        type: "documents",
+        title: heading("placements", "Placements"),
+        icon: "briefcase",
+        documents: placementDocs,
+      });
+    }
   }
 
   // Facilities — laboratories rendered as content blocks when labs are routed
@@ -1221,7 +1238,7 @@ export function getDepartmentData(type: string, slug: string): DepartmentData {
   // Sidebar derived from the content that actually exists. The Home/About labels
   // accept per-department overrides (e.g. Mechanical relabels them
   // "About Department" / "Vision and Mission").
-  const sidebar: { id: string; label: string; icon: string; externalUrl?: string }[] = [
+  const sidebar: DepartmentData["sidebar"] = [
     { id: "home", label: content.layout?.sectionNavLabels?.home ?? "Home", icon: content.layout?.sectionIcons?.home ?? "home" },
   ];
   if ((content.about || content.vision || content.mission?.length) && !content.layout?.hideAboutTab)
@@ -1267,7 +1284,11 @@ export function getDepartmentData(type: string, slug: string): DepartmentData {
       const label = (section.id && content.layout?.sectionNavLabels?.[section.id]) || meta.label;
       const icon = (section.id && content.layout?.sectionIcons?.[section.id]) || meta.icon;
       const externalUrl = section.type === "content" && section.redirectUrl ? section.redirectUrl : undefined;
-      sidebar.push({ id: section.id!, label, icon, externalUrl });
+      const subItems =
+        contentKey === "electrical-and-electronics-engg" && section.id === "faculty"
+          ? [{ label: "Faculty on Role", externalUrl: asset("departments/eee/docs/sl-faculty-list-2026.pdf") }]
+          : undefined;
+      sidebar.push({ id: section.id!, label, icon, externalUrl, ...(subItems ? { subItems } : {}) });
     }
   }
 

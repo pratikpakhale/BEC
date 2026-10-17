@@ -43,6 +43,7 @@ export const SOURCE_KEYS: readonly string[] = [
   "departments/ecs/faculty/krishnamurthy-bhat.webp",
   "departments/eee/alumni/Alumni-Mentorship-Program.pdf",
   "departments/eee/docs/nba-data-capturing-points-2025.pdf",
+  "departments/eee/docs/sl-faculty-list-2026.pdf",
   "departments/eee/mentorship/mentor-1.png",
   "departments/eee/mentorship/mentor-2.png",
   "departments/eee/mentorship/mentor-3.png",
