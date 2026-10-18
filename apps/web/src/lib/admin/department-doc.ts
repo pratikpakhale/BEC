@@ -161,6 +161,7 @@ export const FIELD_TAB: Record<string, TabId> = {
 
   customSections: "extra",
   sectionDocuments: "extra",
+  sectionNavDocuments: "extra",
   sectionEmbeds: "extra",
 
   layout: "layout",
@@ -242,6 +243,7 @@ export const FIELD_LABELS: Record<string, string> = {
   newsletters: "Newsletters",
   customSections: "Extra pages",
   sectionDocuments: "Extra PDFs per section",
+  sectionNavDocuments: "Sidebar PDF links per section",
   sectionEmbeds: "Embedded PDFs per section",
   layout: "Layout",
 };

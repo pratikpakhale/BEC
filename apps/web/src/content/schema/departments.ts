@@ -667,6 +667,12 @@ export const departmentSchema = z.strictObject({
     .describe(
       "Extra PDFs attached to a specific section, keyed by section id (research, mou, facilities, faculty…).",
     ),
+  sectionNavDocuments: z
+    .record(z.string(), z.array(docRef))
+    .optional()
+    .describe(
+      "PDFs linked straight from a section's sidebar entry (sub-links that open the file), keyed by section id — e.g. a faculty-on-roll sheet under Teaching Faculty.",
+    ),
   sectionEmbeds: z
     .record(z.string(), z.array(docRef))
     .optional()
