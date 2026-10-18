@@ -2218,7 +2218,51 @@
       },
       "layout": {
         "hideAboutTab": true,
-        "hideResearchTab": true
+        "hideResearchTab": true,
+        "sectionOrder": [
+          "home",
+          "academics",
+          "curriculum",
+          "faculty",
+          "governance",
+          "research-achievements",
+          "publications",
+          "patents",
+          "startups",
+          "placements",
+          "alumni",
+          "facilities",
+          "activities",
+          "association",
+          "mou",
+          "newsletters",
+          "photo-gallery",
+          "contact"
+        ]
+      },
+      "sectionDocuments": {
+        "placements": [
+          {
+            "title": "Placement / Higher Studies Statistics (2022-25)",
+            "file": "departments/biotechnology/docs/placement-statistics-2022-25.pdf"
+          },
+          {
+            "title": "Graduated Year 2024-25",
+            "file": "departments/biotechnology/docs/placements-2024-25.pdf"
+          },
+          {
+            "title": "Graduated Year 2023-24",
+            "file": "departments/biotechnology/docs/placements-2023-24.pdf"
+          },
+          {
+            "title": "Graduated Year 2022-23",
+            "file": "departments/biotechnology/docs/placements-2022-23.pdf"
+          },
+          {
+            "title": "Graduated Year 2021-22",
+            "file": "departments/biotechnology/docs/placements-2021-22.pdf"
+          }
+        ]
       }
     },
     "civil-engg": {
