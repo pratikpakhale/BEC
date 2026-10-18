@@ -799,6 +799,7 @@ export const manifest = {
   "departments/biotechnology/cine2114.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/biotechnology/cine2114.webp",
   "departments/biotechnology/docs/best-practices.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/biotechnology/docs/best-practices.pdf",
   "departments/biotechnology/docs/department-association.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/biotechnology/docs/department-association.pdf",
+  "departments/biotechnology/docs/faculty-information.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/biotechnology/docs/faculty-information.pdf",
   "departments/biotechnology/docs/nba-data-capturing-points-2025.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/biotechnology/docs/nba-data-capturing-points-2025.pdf",
   "departments/biotechnology/docs/peo-pso-po-2025.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/biotechnology/docs/peo-pso-po-2025.pdf",
   "departments/biotechnology/docs/placement-statistics-2022-25.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/biotechnology/docs/placement-statistics-2022-25.pdf",
