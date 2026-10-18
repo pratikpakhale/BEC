@@ -1961,6 +1961,36 @@
               }
             }
           },
+          "sectionNavDocuments": {
+            "description": "PDFs linked straight from a section's sidebar entry (sub-links that open the file), keyed by section id — e.g. a faculty-on-roll sheet under Teaching Faculty.",
+            "type": "object",
+            "propertyNames": {
+              "type": "string"
+            },
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "title": {
+                    "type": "string"
+                  },
+                  "file": {
+                    "allOf": [
+                      {
+                        "$ref": "./_schema/asset-keys.json"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "title",
+                  "file"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
           "sectionEmbeds": {
             "description": "PDFs embedded inline (rendered in a viewer) under a specific section, keyed by section id.",
             "type": "object",

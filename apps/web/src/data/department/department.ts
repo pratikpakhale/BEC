@@ -1284,11 +1284,11 @@ export function getDepartmentData(type: string, slug: string): DepartmentData {
       const label = (section.id && content.layout?.sectionNavLabels?.[section.id]) || meta.label;
       const icon = (section.id && content.layout?.sectionIcons?.[section.id]) || meta.icon;
       const externalUrl = section.type === "content" && section.redirectUrl ? section.redirectUrl : undefined;
-      const subItems =
-        contentKey === "electrical-and-electronics-engg" && section.id === "faculty"
-          ? [{ label: "Faculty on Role", externalUrl: asset("departments/eee/docs/sl-faculty-list-2026.pdf") }]
-          : undefined;
-      sidebar.push({ id: section.id!, label, icon, externalUrl, ...(subItems ? { subItems } : {}) });
+      const subItems = resolveDocuments(content.sectionNavDocuments?.[section.id!]).map((doc) => ({
+        label: doc.title,
+        externalUrl: doc.url,
+      }));
+      sidebar.push({ id: section.id!, label, icon, externalUrl, ...(subItems.length ? { subItems } : {}) });
     }
   }
 

@@ -1277,6 +1277,26 @@ export function ExtraTab({ value, set, folder }: TabProps) {
       </MapField>
 
       <MapField
+        label="PDF links under a section in the sidebar"
+        hint="Shown as sub-links beneath that section's sidebar entry, opening the PDF directly — e.g. a faculty list under Teaching Faculty. Use the section's address as the name."
+        keyLabel="Section"
+        keyPlaceholder="faculty"
+        noun="section"
+        value={value.sectionNavDocuments}
+        blank={() => []}
+        onChange={(sectionNavDocuments) => set("sectionNavDocuments", sectionNavDocuments)}
+      >
+        {(docs, setDocs) => (
+          <DocsField
+            label="PDFs"
+            value={docs}
+            uploadFolder={folder("docs")}
+            onChange={(next) => setDocs(next ?? [])}
+          />
+        )}
+      </MapField>
+
+      <MapField
         label="PDFs shown inside an existing section"
         hint="The same, but opened in a viewer on the page rather than downloaded."
         keyLabel="Section"

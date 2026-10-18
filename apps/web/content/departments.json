@@ -2263,6 +2263,14 @@
             "file": "departments/biotechnology/docs/placements-2021-22.pdf"
           }
         ]
+      },
+      "sectionNavDocuments": {
+        "faculty": [
+          {
+            "title": "Faculty Information",
+            "file": "departments/biotechnology/docs/faculty-information.pdf"
+          }
+        ]
       }
     },
     "civil-engg": {
@@ -10484,6 +10492,14 @@
           "newsletters",
           "photo-gallery",
           "contact"
+        ]
+      },
+      "sectionNavDocuments": {
+        "faculty": [
+          {
+            "title": "Faculty on Role",
+            "file": "departments/eee/docs/sl-faculty-list-2026.pdf"
+          }
         ]
       }
     },
