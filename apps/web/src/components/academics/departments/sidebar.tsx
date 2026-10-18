@@ -134,7 +134,7 @@ function SectionLinks({
                     )}
                   />
                 )}
-                {isActive && (
+                {isActive && !hasSubItems && (
                   <motion.div
                     layoutId="dept-nav-indicator"
                     className="h-1.5 w-1.5 shrink-0 rounded-full bg-white"
