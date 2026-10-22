@@ -2858,6 +2858,7 @@ export const manifest = {
   "governance/hod/ece/dr-mahabaleshwar-s-k.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/governance/hod/ece/dr-mahabaleshwar-s-k.webp",
   "governance/hod/ecs/dr-c-l-chayalakshmi.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/governance/hod/ecs/dr-c-l-chayalakshmi.webp",
   "governance/hod/eee/dr-r-l-naik.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/governance/hod/eee/dr-r-l-naik.webp",
+  "governance/hod/h-r-patil-mag8ey.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/governance/hod/h-r-patil-mag8ey.webp",
   "governance/hod/hss/dr-b-g-hokarani.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/governance/hod/hss/dr-b-g-hokarani.webp",
   "governance/hod/ip/dr-c-m-javalagi.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/governance/hod/ip/dr-c-m-javalagi.webp",
   "governance/hod/ise/dr-lokesh-b-bhajantri.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/governance/hod/ise/dr-lokesh-b-bhajantri.webp",
