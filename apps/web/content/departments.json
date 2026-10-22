@@ -2271,7 +2271,34 @@
             "file": "departments/biotechnology/docs/faculty-information.pdf"
           }
         ]
-      }
+      },
+      "curriculumGroups": [
+        {
+          "title": "Scheme & syllabus",
+          "documents": [
+            {
+              "title": "Scheme & Syllabus(2026-27)",
+              "file": "departments/biotechnology/facilities/curriculum/i-to-viii-sem-scheme-syllabus-2026-27-k8hkko.pdf"
+            },
+            {
+              "title": "Scheme & Syllabus (2025-26)",
+              "file": "departments/biotechnology/facilities/curriculum/i-to-viii-semester-scheme-syllabus-2025-26-skxsrx.pdf"
+            },
+            {
+              "title": "Scheme & Syllabus (2024-25)",
+              "file": "departments/biotechnology/facilities/curriculum/i-to-viii-scheme-syllabus-2024-25-y0m3mk.pdf"
+            },
+            {
+              "title": "Scheme & Syllabus (2023-24)",
+              "file": "departments/biotechnology/facilities/curriculum/i-to-viii-scheme-syllabus-2023-24-j561nm.pdf"
+            },
+            {
+              "title": "Scheme & Syllabus (2022-23)",
+              "file": "departments/biotechnology/facilities/curriculum/i-to-viii-scheme-syllabus-2022-23-w6usal.pdf"
+            }
+          ]
+        }
+      ]
     },
     "civil-engg": {
       "name": "Civil Engineering",
