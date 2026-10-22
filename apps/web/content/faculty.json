@@ -986,10 +986,10 @@
     ],
     "mechanical-engg": [
       {
-        "name": "Dr. V. V. Kuppast",
-        "designation": "Professor",
-        "cv": "departments/mechanical/faculty/cv/v-v-kuppast.pdf",
-        "photo": "departments/mechanical/faculty/v-v-kuppast.webp"
+        "name": "Prof. H. R. Patil",
+        "designation": "Head",
+        "cv": "departments/mechanical/faculty/cv/h-r-patil.pdf",
+        "photo": "departments/mechanical/faculty/h-r-patil.webp"
       },
       {
         "name": "Prof. S. B. Wadawadagi",
@@ -1056,12 +1056,6 @@
         "designation": "Associate Professor",
         "cv": "departments/mechanical/faculty/cv/m-m-g-math.pdf",
         "photo": "departments/mechanical/faculty/m-m-g-math.webp"
-      },
-      {
-        "name": "Prof. H. R. Patil",
-        "designation": "Associate Professor",
-        "cv": "departments/mechanical/faculty/cv/h-r-patil.pdf",
-        "photo": "departments/mechanical/faculty/h-r-patil.webp"
       },
       {
         "name": "Prof. Vivekanand B. S.",
