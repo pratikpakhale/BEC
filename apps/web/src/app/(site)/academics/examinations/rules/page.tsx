@@ -7,11 +7,15 @@ import Link from "next/link";
 export const metadata = pageMetadata({
     title: "Rules and Regulations",
     description:
-        "Download BEC Bagalkote's autonomous academic regulations for the 2025-26 scheme year.",
+        "Download BEC Bagalkote's autonomous academic regulations for the B.E., M.Tech. and MCA programmes (2025-26 and 2026-27).",
     path: "/academics/examinations/rules",
 });
 
 const regulations = [
+    { title: "BEC B.E. Regulations 2026-27", link: asset("documents/regulations/bec-regulations-2026-27.pdf") },
+    { title: "BEC MCA Regulations 2026-27 (Draft)", link: asset("documents/regulations/mca-regulations-2026-27.pdf") },
+    { title: "BEC M.Tech. Regulations 2026-27", link: asset("documents/regulations/mtech-regulations-2026-27.pdf") },
+    { title: "BEC M.Tech. Regulations 2025-26", link: asset("documents/regulations/mtech-regulations-2025-26.pdf") },
     { title: "BEC Regulations 2025-26", link: asset("documents/regulations/bec-regulations-2025-26.pdf") },
 ];
 
