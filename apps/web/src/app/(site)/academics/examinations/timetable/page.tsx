@@ -12,6 +12,8 @@ export const metadata = pageMetadata({
 });
 
 const timetables = [
+    { title: "Summer Semester SEE Time Table 2025-26", link: asset("documents/exam/summer-sem-see-timetable-2025-26.pdf"), isNew: true },
+    { title: "Supplementary Semester SEE Time Table 2025-26", link: asset("documents/exam/supplementary-sem-see-timetable-2025-26.pdf"), isNew: true },
     { title: "B.E. I Sem SEE Time Table 2025-26 (Odd)", link: asset("documents/exam/be-i-sem-see-timetable-2025-26-odd.pdf"), isNew: true },
     { title: "B.E. II Sem SEE Time Table 2025-26 (Even)", link: asset("documents/exam/be-ii-sem-see-timetable-2025-26-even.pdf"), isNew: true },
     { title: "B.E. III Sem SEE Time Table 2025-26 (Odd)", link: asset("documents/exam/be-iii-sem-see-timetable-2025-26-odd.pdf"), isNew: true },
