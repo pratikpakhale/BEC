@@ -37,6 +37,28 @@
         }
       }
     },
+    "students-list": {
+      "title": "College Students List",
+      "path": "/academics/students-list",
+      "folder": "documents/students-list",
+      "blocks": {
+        "documents": {
+          "label": "Student lists",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "College Student Details — 2021-22 to 2024-25",
+                  "file": "documents/students-list/college-student-details-2021-22-to-2024-25.rar",
+                  "meta": "RAR archive · 5.8 MB",
+                  "isNew": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
     "exam-rules": {
       "title": "Rules & Regulations",
       "path": "/academics/examinations/rules",

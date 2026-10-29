@@ -70,7 +70,7 @@ export function DocumentDirectory({
                     </span>
                   ) : null}
                 </span>
-                {/\.(pdf|csv|docx?|xlsx?)$/i.test(doc.url.split("?")[0].split("#")[0]) ? (
+                {/\.(pdf|csv|docx?|xlsx?|rar|zip)$/i.test(doc.url.split("?")[0].split("#")[0]) ? (
                   <Download className="h-4 w-4 shrink-0 text-stone-400 group-hover:text-primary" />
                 ) : doc.url.startsWith("http://") || doc.url.startsWith("https://") ? (
                   <ExternalLink className="h-4 w-4 shrink-0 text-stone-400 group-hover:text-primary" />

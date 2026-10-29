@@ -95,6 +95,7 @@ export const navigationData: NavigationItem[] = [
         ],
       },
       { title: "Academic Calendar", href: "/academics/calendar" },
+      { title: "College Students List", href: "/academics/students-list" },
     ],
   },
 
