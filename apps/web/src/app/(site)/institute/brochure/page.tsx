@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 import { PageHero } from "@/components/common/page-hero";
 import { DocumentDirectory } from "@/components/common/document-directory";
-import { asset } from "@/lib/assets";
+import { documentGroups } from "@/content/documents";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata: Metadata = pageMetadata({
@@ -23,16 +23,7 @@ export default function BrochurePage() {
 
       <section className="container mx-auto max-w-6xl px-4 lg:px-6 py-14 md:py-18">
         <DocumentDirectory
-          groups={[
-            {
-              documents: [
-                {
-                  title: "Institute Brochure (Scheme & Prospectus)",
-                  url: asset("documents/institute/brochure.pdf"),
-                },
-              ],
-            },
-          ]}
+          groups={documentGroups("brochure", "documents")}
         />
       </section>
     </main>

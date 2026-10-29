@@ -25,6 +25,7 @@ pnpm lint           # eslint
 |--------|------|-----------|
 | Top nav / menu items | `apps/web/src/data/navigation.ts` (+ `src/types/navigation.ts`) | [content-model](docs/content-model.md#navigation) |
 | HoD / Dean / BoG / leadership person | `apps/web/src/data/governance/*` (renders with `PersonCard`) | [content-model](docs/content-model.md#people--governance) |
+| PDF lists on NBA, NAAC, NIRF, IQAC, calendars, cells… | `apps/web/content/documents.json` (rendered via `documentGroups(page, block)`; editable in `/admin/documents`) | `src/content/schema/documents.ts` |
 | Department faculty (photo + CV PDF) | `apps/web/content/faculty.json` (keyed by dept slug) | [faculty-extraction](docs/faculty-extraction.md) |
 | A department page | `apps/web/src/data/department/department.ts` (section-based) | [conventions](docs/conventions.md#departments) |
 | Home page sections | `apps/web/src/data/home/*` | [content-model](docs/content-model.md#home) |

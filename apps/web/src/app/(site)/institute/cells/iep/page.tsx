@@ -3,6 +3,7 @@ import Image from "next/image";
 import { ExternalLink, Mail, Phone } from "lucide-react";
 
 import { DocumentDirectory } from "@/components/common/document-directory";
+import { documentGroups } from "@/content/documents";
 import { PageHero } from "@/components/common/page-hero";
 import { SectionHeading } from "@/components/common/section-heading";
 import { asset } from "@/lib/assets";
@@ -167,26 +168,7 @@ export default function IepPage() {
             description="The legacy BEC-IEP page linked these policy documents and public resource portals."
           />
           <DocumentDirectory
-            groups={[
-              {
-                label: "Policy Downloads",
-                documents: [
-                  {
-                    title: "BEC Innovation & Entrepreneurship Policy (Revised 2026)",
-                    url: asset("documents/cells/iic/bec-ie-policy-2026.pdf"),
-                  },
-                  {
-                    title: "MoE National Innovation and Startup Policy 2019",
-                    url: asset("documents/cells/iic/nisp-2019.pdf"),
-                    meta: "NISP resource linked from the legacy page",
-                  },
-                  {
-                    title: "Karnataka State Startup Policy 2025-2030",
-                    url: "https://eitbt.karnataka.gov.in/startup/public/uploads/media_to_upload1763380262.pdf",
-                  },
-                ],
-              },
-            ]}
+            groups={documentGroups("iep", "documents")}
           />
 
           <div className="grid gap-3 sm:grid-cols-2">

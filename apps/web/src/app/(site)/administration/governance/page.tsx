@@ -1,3 +1,4 @@
+import { documentGroups } from "@/content/documents";
 import { pageMetadata } from "@/lib/seo";
 import { GovernanceContent } from "./governance-content";
 
@@ -9,5 +10,9 @@ export const metadata = pageMetadata({
 });
 
 export default function GovernancePage() {
-  return <GovernanceContent />;
+  return (
+    <GovernanceContent
+      academicCouncilDocuments={documentGroups("governance", "academic-council")}
+    />
+  );
 }

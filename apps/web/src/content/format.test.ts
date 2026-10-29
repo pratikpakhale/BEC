@@ -55,6 +55,7 @@ describe("checked-in content files", () => {
     "faculty.json",
     "placements.json",
     "departments.json",
+    "documents.json",
   ]) {
     test(`content/${file} is canonically formatted`, () => {
       assert.equal(isCanonicallyFormatted(readFileSync(join(contentDir, file), "utf8")), true);

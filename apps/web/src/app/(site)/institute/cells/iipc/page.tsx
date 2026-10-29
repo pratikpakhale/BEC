@@ -5,6 +5,7 @@ import { PageHero } from "@/components/common/page-hero";
 import { SectionHeading } from "@/components/common/section-heading";
 import { PersonCard, PersonGrid } from "@/components/common/person-card";
 import { DocumentDirectory } from "@/components/common/document-directory";
+import { documentGroups } from "@/content/documents";
 import { PhotoGallery } from "@/components/common/photo-gallery";
 import { asset } from "@/lib/assets";
 import { pageMetadata } from "@/lib/seo";
@@ -568,28 +569,7 @@ export default function IipcPage() {
             description="Signed Memorandums of Understanding between the college and partner industries."
           />
           <DocumentDirectory
-            groups={[
-              {
-                documents: [
-                  {
-                    title: "MoU — Bit Bytes (MBA)",
-                    url: asset("documents/cells/iipc/mou-bit-bytes-mba.pdf"),
-                  },
-                  {
-                    title: "MoU — CNC India (Mechanical)",
-                    url: asset("documents/cells/iipc/mou-cnc-india-mech.pdf"),
-                  },
-                  {
-                    title: "MoU — Sphoorti (Mechanical)",
-                    url: asset("documents/cells/iipc/mou-sphoorti-mech.pdf"),
-                  },
-                  {
-                    title: "MoU — Unnati (Mechanical)",
-                    url: asset("documents/cells/iipc/mou-unnati-mech.pdf"),
-                  },
-                ],
-              },
-            ]}
+            groups={documentGroups("iipc", "documents")}
           />
         </div>
 

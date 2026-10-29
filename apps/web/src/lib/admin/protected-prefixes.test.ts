@@ -34,9 +34,10 @@ describe("PROTECTED_PREFIXES", () => {
 
   test("the scan still finds the folders we know about", () => {
     // A regex that quietly stopped matching would empty the list above and pass
-    // it. The site has had at least ten of these folders for a year.
+    // it. The site has had at least ten of these folders for a year. Page PDF
+    // lists moved to content/documents.json, which left ~150 literal keys.
     assert.ok(scan.prefixes.length >= 10, `only ${scan.prefixes.length} folders found`);
-    assert.ok(scan.keys.length >= 400, `only ${scan.keys.length} literal keys found`);
+    assert.ok(scan.keys.length >= 100, `only ${scan.keys.length} literal keys found`);
   });
 
   test("every entry is a folder, not a file", () => {

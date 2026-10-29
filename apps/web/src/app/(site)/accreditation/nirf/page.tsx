@@ -1,6 +1,6 @@
 import { PageHero } from "@/components/common/page-hero";
 import { DocumentDirectory } from "@/components/common/document-directory";
-import { asset } from "@/lib/assets";
+import { documentGroups } from "@/content/documents";
 import { pageMetadata } from "@/lib/seo";
 import { Mail } from "lucide-react";
 
@@ -56,59 +56,7 @@ export default function NirfPage() {
         </div>
 
         <DocumentDirectory
-          groups={[
-            {
-              label: "2026",
-              documents: [
-                { title: "Engineering", url: asset("documents/nirf/nirf-26-engg.pdf") },
-                { title: "Overall", url: asset("documents/nirf/nirf-26-overall.pdf") },
-                { title: "Innovation", url: asset("documents/nirf/nirf-26-innovation.pdf") },
-              ],
-            },
-            {
-              label: "2025",
-              documents: [
-                { title: "Engineering", url: asset("documents/nirf/nirf-25-engg.pdf") },
-                { title: "Overall", url: asset("documents/nirf/nirf-25-overall.pdf") },
-                { title: "Innovation", url: asset("documents/nirf/nirf-25-innovation.pdf") },
-              ],
-            },
-            {
-              label: "2023",
-              documents: [
-                { title: "Engineering", url: asset("documents/nirf/nirf-engg-report-submitted-20-01-2023.pdf") },
-                { title: "Overall", url: asset("documents/nirf/nirf-overall-submitted-20-01-2023.pdf") },
-              ],
-            },
-            {
-              label: "2022",
-              documents: [
-                { title: "Engineering", url: asset("documents/nirf/nirf-22-engg-report.pdf") },
-                { title: "Overall", url: asset("documents/nirf/nirf-22-overall-report.pdf") },
-              ],
-            },
-            {
-              label: "2021",
-              documents: [
-                { title: "Engineering", url: asset("documents/nirf/nirf-21-engg-report.pdf") },
-                { title: "Overall", url: asset("documents/nirf/nirf-21-overall-report.pdf") },
-              ],
-            },
-            {
-              label: "2020",
-              documents: [
-                { title: "Engineering", url: asset("documents/nirf/nirf-20-engg-submitted.pdf") },
-                { title: "Overall", url: asset("documents/nirf/nirf-20-overall-submitted.pdf") },
-              ],
-            },
-            {
-              label: "2018–19",
-              documents: [
-                { title: "Engineering", url: asset("documents/nirf/nirf-engg-submitted-18-19.pdf") },
-                { title: "Overall", url: asset("documents/nirf/nirf-overall-submitted-18-19.pdf") },
-              ],
-            },
-          ]}
+          groups={documentGroups("nirf", "documents")}
         />
 
         <div className="mt-16 border-t pt-10">

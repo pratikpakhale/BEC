@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
 import { PageHero } from "@/components/common/page-hero";
+import { documentGroups } from "@/content/documents";
 import { pageMetadata } from "@/lib/seo";
 import { NainTabs } from "./nain-tabs";
 
@@ -40,7 +41,7 @@ export default function NainPage() {
       />
 
       <section className="container mx-auto max-w-6xl px-4 lg:px-6 py-14 md:py-18">
-        <NainTabs />
+        <NainTabs v1Documents={documentGroups("nain", "nain-1")} />
       </section>
     </main>
   );

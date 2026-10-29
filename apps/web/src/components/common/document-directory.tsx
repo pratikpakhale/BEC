@@ -6,6 +6,8 @@ export type DocumentItem = {
   title: string;
   url: string;
   meta?: string;
+  /** Shows a "New" badge beside the title. */
+  isNew?: boolean;
 };
 
 export type DocumentGroup = {
@@ -56,6 +58,11 @@ export function DocumentDirectory({
                 <span className="min-w-0 flex-1">
                   <span className="block text-sm font-medium text-gray-900 group-hover:text-primary">
                     {doc.title}
+                    {doc.isNew ? (
+                      <span className="ml-2 inline-flex items-center rounded bg-red-100 px-2 py-0.5 align-middle text-xs font-medium text-red-800 motion-safe:animate-pulse">
+                        New
+                      </span>
+                    ) : null}
                   </span>
                   {doc.meta ? (
                     <span className="mt-0.5 block text-xs text-gray-500">

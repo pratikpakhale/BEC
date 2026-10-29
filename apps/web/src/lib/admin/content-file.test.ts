@@ -73,6 +73,10 @@ describe("scopedCollection", () => {
     assert.equal(scopedCollection("departments.json"), "departments");
   });
 
+  it("names the map page document lists are published one at a time from", () => {
+    assert.equal(scopedCollection("documents.json"), "pages");
+  });
+
   it("is null for the files that publish whole", () => {
     for (const file of ["home.json", "faculty.json", "news.json", "placements.json"]) {
       assert.equal(scopedCollection(file), null, file);
@@ -147,7 +151,7 @@ describe("contentCommitMessage", () => {
   });
 
   it("keeps the subject line under 72 characters", () => {
-    for (const file of ["departments.json", "governance.json", "placements.json"]) {
+    for (const file of ["departments.json", "governance.json", "placements.json", "documents.json"]) {
       const subject = contentCommitMessage(file, "Someone").split("\n")[0];
       assert.ok(subject.length < 72, `${subject} is ${subject.length} chars`);
     }

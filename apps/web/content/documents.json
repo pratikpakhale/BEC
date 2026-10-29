@@ -1,0 +1,1877 @@
+{
+  "$schema": "./documents.schema.json",
+  "pages": {
+    "academic-calendar": {
+      "title": "Academic Calendar",
+      "path": "/academics/calendar",
+      "folder": "documents/calendar",
+      "blocks": {
+        "documents": {
+          "label": "Calendars of events",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "I & III Semester BE — 2025-26",
+                  "file": "documents/calendar/2025-26-be-i-and-iii-sem-calendar-of-events.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "II & IV Semester BE — 2025-26",
+                  "file": "documents/calendar/2025-26-be-ii-and-iv-sem-calendar-of-events.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "V & VII Semester BE — 2025-26",
+                  "file": "documents/calendar/2025-26-be-v-and-vii-sem-calendar-of-events.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "VI & VIII Semester BE — 2025-26",
+                  "file": "documents/calendar/2025-26-be-vi-and-viii-sem-calendar-of-events.pdf",
+                  "isNew": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "exam-rules": {
+      "title": "Rules & Regulations",
+      "path": "/academics/examinations/rules",
+      "folder": "documents/regulations",
+      "blocks": {
+        "documents": {
+          "label": "Regulations",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "BEC B.E. Regulations 2026-27",
+                  "file": "documents/regulations/bec-regulations-2026-27.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "BEC MCA Regulations 2026-27 (Draft)",
+                  "file": "documents/regulations/mca-regulations-2026-27.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "BEC M.Tech. Regulations 2026-27",
+                  "file": "documents/regulations/mtech-regulations-2026-27.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "BEC M.Tech. Regulations 2025-26",
+                  "file": "documents/regulations/mtech-regulations-2025-26.pdf"
+                },
+                {
+                  "title": "BEC Regulations 2025-26",
+                  "file": "documents/regulations/bec-regulations-2025-26.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "exam-timetable": {
+      "title": "SEE Time Table",
+      "path": "/academics/examinations/timetable",
+      "folder": "documents/exam",
+      "blocks": {
+        "documents": {
+          "label": "Time tables",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "Summer Semester SEE Time Table 2025-26",
+                  "file": "documents/exam/summer-sem-see-timetable-2025-26.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "Supplementary Semester SEE Time Table 2025-26",
+                  "file": "documents/exam/supplementary-sem-see-timetable-2025-26.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "B.E. I Sem SEE Time Table 2025-26 (Odd)",
+                  "file": "documents/exam/be-i-sem-see-timetable-2025-26-odd.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "B.E. II Sem SEE Time Table 2025-26 (Even)",
+                  "file": "documents/exam/be-ii-sem-see-timetable-2025-26-even.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "B.E. III Sem SEE Time Table 2025-26 (Odd)",
+                  "file": "documents/exam/be-iii-sem-see-timetable-2025-26-odd.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "B.E. IV Sem SEE Time Table 2025-26 (Even)",
+                  "file": "documents/exam/be-iv-sem-see-timetable-2025-26-even.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "B.E. VI Sem SEE Time Table 2025-26 (Even)",
+                  "file": "documents/exam/be-vi-sem-see-timetable-2025-26-even.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "B.E. VIII Sem SEE Time Table 2025-26 (Even)",
+                  "file": "documents/exam/be-viii-sem-see-timetable-2025-26-even.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "PG I Sem SEE Time Table 2025-26 (Odd)",
+                  "file": "documents/exam/pg-i-sem-see-timetable-2025-26-odd.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "PG IV Sem SEE Time Table 2025-26 (Even)",
+                  "file": "documents/exam/pg-iv-sem-see-timetable-2025-26-even.pdf",
+                  "isNew": true
+                },
+                {
+                  "title": "1_2024-25 EVEN_4_ 6_ 8_SEMESTER TIME TABLE",
+                  "file": "documents/exam/1-2024-25-even-4-6-8-semester-time-table.pdf"
+                },
+                {
+                  "title": "2_2024-25 ODD_I SEM PG",
+                  "file": "documents/exam/2-2024-25-odd-i-sem-pg.pdf"
+                },
+                {
+                  "title": "3_2024-25 ODD_3 SEM PG",
+                  "file": "documents/exam/3-2024-25-odd-3-sem-pg.pdf"
+                },
+                {
+                  "title": "4_2024-25 ODD_MAKE UP_1_ 3_ 5_ 7 SEM",
+                  "file": "documents/exam/4-2024-25-odd-make-up-1-3-5-7-sem.pdf"
+                },
+                {
+                  "title": "Time Table for BE I/II Semester SEE Examinations, Feb/March - 2025",
+                  "file": "documents/exam/be-i-sem-see-timetable.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "first-year": {
+      "title": "First Year",
+      "path": "/academics/first-year",
+      "folder": "documents/first-year",
+      "blocks": {
+        "documents": {
+          "label": "Scheme, syllabus and documents",
+          "groups": [
+            {
+              "label": "2026–27 Scheme & Syllabus",
+              "documents": [
+                {
+                  "title": "Scheme of Teaching 1st Semester 2026-27",
+                  "file": "documents/first-year/scheme-of-teaching-1st-semester-2026-27.pdf"
+                },
+                {
+                  "title": "Scheme of Teaching 2nd Semester 2026-27",
+                  "file": "documents/first-year/scheme-of-teaching-2nd-semester-2026-27.pdf"
+                },
+                {
+                  "title": "First Year Syllabus 2026-27",
+                  "file": "documents/first-year/first-year-syllabus-2026-27.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2023–24 Scheme & Syllabus",
+              "documents": [
+                {
+                  "title": "Civil Stream",
+                  "file": "documents/first-year/first-year-syllabus-civil-2023-24-9-9-2023.pdf"
+                },
+                {
+                  "title": "CSE Stream",
+                  "file": "documents/first-year/first-year-syllabus-cse-2023-24-9-9-2023.pdf"
+                },
+                {
+                  "title": "EC & EE Streams",
+                  "file": "documents/first-year/first-year-syllabus-ec-and-ee-2023-24-9-9-2023.pdf"
+                },
+                {
+                  "title": "Mechanical Stream",
+                  "file": "documents/first-year/first-year-syllabus-mechanical-2023-24-9-9-2023.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2022–23 Scheme & Syllabus",
+              "documents": [
+                {
+                  "title": "Civil Stream",
+                  "file": "documents/first-year/be-1st-year-scheme-and-syllabi-of-civil-stream-22-23.pdf"
+                },
+                {
+                  "title": "CSE Stream",
+                  "file": "documents/first-year/be-1st-year-scheme-and-syllabi-of-cse-stream-22-23.pdf"
+                },
+                {
+                  "title": "EE Stream",
+                  "file": "documents/first-year/be-1st-year-scheme-and-syllabi-of-ee-stream-22-23.pdf"
+                },
+                {
+                  "title": "ME Stream",
+                  "file": "documents/first-year/be-1st-year-scheme-and-syllabi-of-me-stream-22-23.pdf"
+                },
+                {
+                  "title": "Samskruthika Kannada & Balake Kannada",
+                  "file": "documents/first-year/syllabus-of-samskruthika-kannada-and-balakekannada-for-all-the-stream-of-be-1st-year-22-23.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Earlier Schemes (BE I & II Semester)",
+              "documents": [
+                {
+                  "title": "2021–22",
+                  "file": "documents/first-year/be-i-ii-semester-scheme-and-syllabus-2021-22.pdf"
+                },
+                {
+                  "title": "2020–21",
+                  "file": "documents/first-year/be-i-ii-semester-scheme-and-syllabus-2020-21.pdf"
+                },
+                {
+                  "title": "2019–20",
+                  "file": "documents/first-year/be-i-ii-semester-scheme-and-syllabus-2019-20.pdf"
+                },
+                {
+                  "title": "2018–19",
+                  "file": "documents/first-year/be-i-ii-semester-scheme-and-syllabus-2018-19.pdf"
+                },
+                {
+                  "title": "2017–18",
+                  "file": "documents/first-year/be-i-ii-semester-scheme-and-syllabus-2017-18.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "nba": {
+      "title": "NBA Accreditation",
+      "path": "/accreditation/nba",
+      "folder": "documents/nba",
+      "blocks": {
+        "documents": {
+          "label": "Documents",
+          "groups": [
+            {
+              "label": "Accreditation Certificates",
+              "documents": [
+                {
+                  "title": "Civil, Computer Science, Electronics & Communication and Mechanical Engineering — 2025–26 to 30 June 2028",
+                  "file": "documents/nba/nba-civil-cse-ece-mech-2025-2028.pdf"
+                },
+                {
+                  "title": "Information Science & Engineering (ISE) — 2023–24 to 30 June 2026",
+                  "file": "documents/nba/nba-ise-2023-2026.pdf"
+                },
+                {
+                  "title": "Electrical & Electronics Engineering and Biotechnology — 2022–23 to 30 June 2025",
+                  "file": "documents/nba/nba-eee-bt-2022-2025.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Data Capturing Points",
+              "description": "Data capturing points of the programmes applied for NBA accreditation (Tier I, UG Engineering), submitted on 10 March 2025.",
+              "documents": [
+                {
+                  "title": "Biotechnology and Electrical & Electronics Engineering",
+                  "file": "documents/nba/nba-data-capturing-points-2025.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "naac": {
+      "title": "NAAC Accreditation",
+      "path": "/accreditation/naac",
+      "folder": "documents/naac",
+      "blocks": {
+        "certification": {
+          "label": "Certification & key documents",
+          "groups": [
+            {
+              "label": "Certification & Key Documents",
+              "documents": [
+                {
+                  "title": "Self-Study Report (SSR) — Cycle 2",
+                  "file": "documents/naac/criteria/ssr-cycle-2.pdf"
+                },
+                {
+                  "title": "Institutional Information for Quality Assessment (IIQA) — 4 Nov 2022",
+                  "file": "documents/naac/documents/iiqa-4nov2022.pdf"
+                },
+                {
+                  "title": "NAAC Certificate — Cycle 2 (valid up to 16 January 2029)",
+                  "file": "documents/naac/documents/naac-certificate-cycle2-2029.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        "criteria": {
+          "label": "Criteria-wise documents",
+          "groups": [
+            {
+              "label": "Criterion 1 — Curricular Aspects",
+              "documents": [
+                {
+                  "title": "Metric 1.1.1",
+                  "file": "documents/naac/criteria/1/1-1-1.pdf"
+                },
+                {
+                  "title": "Metric 1.1.2",
+                  "file": "documents/naac/criteria/1/1-1-2.pdf"
+                },
+                {
+                  "title": "Metric 1.1.3",
+                  "file": "documents/naac/criteria/1/1-1-3.pdf"
+                },
+                {
+                  "title": "Metric 1.2.1",
+                  "file": "documents/naac/criteria/1/1-2-1.pdf"
+                },
+                {
+                  "title": "Metric 1.3.1",
+                  "file": "documents/naac/criteria/1/1-3-1.pdf"
+                },
+                {
+                  "title": "Metric 1.3.2",
+                  "file": "documents/naac/criteria/1/1-3-2.pdf"
+                },
+                {
+                  "title": "Metric 1.3.4",
+                  "file": "documents/naac/criteria/1/1-3-4.pdf"
+                },
+                {
+                  "title": "Metric 1.4.1",
+                  "file": "documents/naac/criteria/1/1-4-1.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Criterion 2 — Teaching-Learning and Evaluation",
+              "documents": [
+                {
+                  "title": "Metric 2.1.1",
+                  "file": "documents/naac/criteria/2/2-1-1.pdf"
+                },
+                {
+                  "title": "Metric 2.1.2",
+                  "file": "documents/naac/criteria/2/2-1-2.pdf"
+                },
+                {
+                  "title": "Metric 2.2.1",
+                  "file": "documents/naac/criteria/2/2-2-1.pdf"
+                },
+                {
+                  "title": "Metric 2.3.1",
+                  "file": "documents/naac/criteria/2/2-3-1.pdf"
+                },
+                {
+                  "title": "Metric 2.3.2",
+                  "file": "documents/naac/criteria/2/2-3-2.pdf"
+                },
+                {
+                  "title": "Metric 2.3.3",
+                  "file": "documents/naac/criteria/2/2-3-3.pdf"
+                },
+                {
+                  "title": "Metric 2.3.4",
+                  "file": "documents/naac/criteria/2/2-3-4.pdf"
+                },
+                {
+                  "title": "Metric 2.4.1",
+                  "file": "documents/naac/criteria/2/2-4-1.pdf"
+                },
+                {
+                  "title": "Metric 2.4.2",
+                  "file": "documents/naac/criteria/2/2-4-2.pdf"
+                },
+                {
+                  "title": "Metric 2.5.1",
+                  "file": "documents/naac/criteria/2/2-5-1.pdf"
+                },
+                {
+                  "title": "Metric 2.5.3",
+                  "file": "documents/naac/criteria/2/2-5-3.pdf"
+                },
+                {
+                  "title": "Metric 2.6.1",
+                  "file": "documents/naac/criteria/2/2-6-1.pdf"
+                },
+                {
+                  "title": "Metric 2.6.2",
+                  "file": "documents/naac/criteria/2/2-6-2.pdf"
+                },
+                {
+                  "title": "Metric 2.6.3",
+                  "file": "documents/naac/criteria/2/2-6-3.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Criterion 3 — Research, Innovations and Extension",
+              "documents": [
+                {
+                  "title": "Metric 3.1.1",
+                  "file": "documents/naac/criteria/3/3-1-1.pdf"
+                },
+                {
+                  "title": "Metric 3.1.2",
+                  "file": "documents/naac/criteria/3/3-1-2.pdf"
+                },
+                {
+                  "title": "Metric 3.2.1",
+                  "file": "documents/naac/criteria/3/3-2-1.pdf"
+                },
+                {
+                  "title": "Metric 3.2.3",
+                  "file": "documents/naac/criteria/3/3-2-3.pdf"
+                },
+                {
+                  "title": "Metric 3.3.1",
+                  "file": "documents/naac/criteria/3/3-3-1.pdf"
+                },
+                {
+                  "title": "Metric 3.3.2",
+                  "file": "documents/naac/criteria/3/3-3-2.pdf"
+                },
+                {
+                  "title": "Metric 3.4.2",
+                  "file": "documents/naac/criteria/3/3-4-2.pdf"
+                },
+                {
+                  "title": "Metric 3.4.4",
+                  "file": "documents/naac/criteria/3/3-4-4.pdf"
+                },
+                {
+                  "title": "Metric 3.5.1",
+                  "file": "documents/naac/criteria/3/3-5-1.pdf"
+                },
+                {
+                  "title": "Metric 3.6.1",
+                  "file": "documents/naac/criteria/3/3-6-1.pdf"
+                },
+                {
+                  "title": "Metric 3.6.2",
+                  "file": "documents/naac/criteria/3/3-6-2.pdf"
+                },
+                {
+                  "title": "Metric 3.6.3",
+                  "file": "documents/naac/criteria/3/3-6-3.pdf"
+                },
+                {
+                  "title": "Metric 3.7.1",
+                  "file": "documents/naac/criteria/3/3-7-1.pdf"
+                },
+                {
+                  "title": "Metric 3.7.2",
+                  "file": "documents/naac/criteria/3/3-7-2.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Criterion 4 — Infrastructure and Learning Resources",
+              "documents": [
+                {
+                  "title": "Metric 4.1.1",
+                  "file": "documents/naac/criteria/4/4-1-1.pdf"
+                },
+                {
+                  "title": "Metric 4.1.2",
+                  "file": "documents/naac/criteria/4/4-1-2.pdf"
+                },
+                {
+                  "title": "Metric 4.1.3",
+                  "file": "documents/naac/criteria/4/4-1-3.pdf"
+                },
+                {
+                  "title": "Metric 4.1.4",
+                  "file": "documents/naac/criteria/4/4-1-4.pdf"
+                },
+                {
+                  "title": "Metric 4.2.1.1",
+                  "file": "documents/naac/criteria/4/4-2-1-1.pdf"
+                },
+                {
+                  "title": "Metric 4.2.1.2",
+                  "file": "documents/naac/criteria/4/4-2-1-2.pdf"
+                },
+                {
+                  "title": "Metric 4.2.2",
+                  "file": "documents/naac/criteria/4/4-2-2.pdf"
+                },
+                {
+                  "title": "Metric 4.3.1",
+                  "file": "documents/naac/criteria/4/4-3-1.pdf"
+                },
+                {
+                  "title": "Metric 4.3.4",
+                  "file": "documents/naac/criteria/4/4-3-4.pdf"
+                },
+                {
+                  "title": "Metric 4.1",
+                  "file": "documents/naac/criteria/4-1.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Criterion 5 — Student Support and Progression",
+              "documents": [
+                {
+                  "title": "Metric 5.1.1",
+                  "file": "documents/naac/criteria/5/5-1-1.pdf"
+                },
+                {
+                  "title": "Metric 5.1.2",
+                  "file": "documents/naac/criteria/5/5-1-2.pdf"
+                },
+                {
+                  "title": "Metric 5.1.3",
+                  "file": "documents/naac/criteria/5/5-1-3.pdf"
+                },
+                {
+                  "title": "Metric 5.1.4",
+                  "file": "documents/naac/criteria/5/5-1-4.pdf"
+                },
+                {
+                  "title": "Metric 5.1.5",
+                  "file": "documents/naac/criteria/5/5-1-5.pdf"
+                },
+                {
+                  "title": "Metric 5.2.1.1",
+                  "file": "documents/naac/criteria/5/5-2-1-1.pdf"
+                },
+                {
+                  "title": "Metric 5.2.1.2",
+                  "file": "documents/naac/criteria/5/5-2-1-2.pdf"
+                },
+                {
+                  "title": "Metric 5.2.2",
+                  "file": "documents/naac/criteria/5/5-2-2.pdf"
+                },
+                {
+                  "title": "Metric 5.2.3",
+                  "file": "documents/naac/criteria/5/5-2-3.pdf"
+                },
+                {
+                  "title": "Metric 5.3.1",
+                  "file": "documents/naac/criteria/5/5-3-1.pdf"
+                },
+                {
+                  "title": "Metric 5.3.2",
+                  "file": "documents/naac/criteria/5/5-3-2.pdf"
+                },
+                {
+                  "title": "Metric 5.3.3",
+                  "file": "documents/naac/criteria/5/5-3-3.pdf"
+                },
+                {
+                  "title": "Metric 5.4.1",
+                  "file": "documents/naac/criteria/5/5-4-1.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Criterion 6 — Governance, Leadership and Management",
+              "documents": [
+                {
+                  "title": "Metric 6.2.3",
+                  "file": "documents/naac/criteria/6/6-2-3.pdf"
+                },
+                {
+                  "title": "Metric 6.3.1",
+                  "file": "documents/naac/criteria/6/6-3-1.pdf"
+                },
+                {
+                  "title": "Metric 6.3.2",
+                  "file": "documents/naac/criteria/6/6-3-2.pdf"
+                },
+                {
+                  "title": "Metric 6.3.3",
+                  "file": "documents/naac/criteria/6/6-3-3.pdf"
+                },
+                {
+                  "title": "Metric 6.3.4",
+                  "file": "documents/naac/criteria/6/6-3-4.pdf"
+                },
+                {
+                  "title": "Metric 6.4.1",
+                  "file": "documents/naac/criteria/6/6-4-1.pdf"
+                },
+                {
+                  "title": "Metric 6.4.2",
+                  "file": "documents/naac/criteria/6/6-4-2.pdf"
+                },
+                {
+                  "title": "Metric 6.5.1",
+                  "file": "documents/naac/criteria/6/6-5-1.pdf"
+                },
+                {
+                  "title": "Metric 6.5.3",
+                  "file": "documents/naac/criteria/6/6-5-3.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        "dvv": {
+          "label": "DVV clarifications",
+          "groups": [
+            {
+              "label": "DVV Clarifications",
+              "description": "Data Validation and Verification (DVV) clarifications submitted metric-wise.",
+              "documents": [
+                {
+                  "title": "Metric 1.1.2",
+                  "file": "documents/naac/dvv/1-1-2.pdf"
+                },
+                {
+                  "title": "Metric 1.1.3",
+                  "file": "documents/naac/dvv/1-1-3.pdf"
+                },
+                {
+                  "title": "Metric 1.1",
+                  "file": "documents/naac/dvv/1-1.pdf"
+                },
+                {
+                  "title": "Metric 1.2.1",
+                  "file": "documents/naac/dvv/1-2-1.pdf"
+                },
+                {
+                  "title": "Metric 1.2.2",
+                  "file": "documents/naac/dvv/1-2-2.pdf"
+                },
+                {
+                  "title": "Metric 1.2",
+                  "file": "documents/naac/dvv/1-2.pdf"
+                },
+                {
+                  "title": "Metric 1.3.2",
+                  "file": "documents/naac/dvv/1-3-2.pdf"
+                },
+                {
+                  "title": "Metric 1.3.3",
+                  "file": "documents/naac/dvv/1-3-3.pdf"
+                },
+                {
+                  "title": "Metric 1.3.4",
+                  "file": "documents/naac/dvv/1-3-4.pdf"
+                },
+                {
+                  "title": "Metric 1.4.1",
+                  "file": "documents/naac/dvv/1-4-1.pdf"
+                },
+                {
+                  "title": "Metric 1.4.2",
+                  "file": "documents/naac/dvv/1-4-2.pdf"
+                },
+                {
+                  "title": "Metric 2.1.1",
+                  "file": "documents/naac/dvv/2-1-1.pdf"
+                },
+                {
+                  "title": "Metric 2.1.2",
+                  "file": "documents/naac/dvv/2-1-2.pdf"
+                },
+                {
+                  "title": "Metric 2.1",
+                  "file": "documents/naac/dvv/2-1.pdf"
+                },
+                {
+                  "title": "Metric 2.2.2",
+                  "file": "documents/naac/dvv/2-2-2.pdf"
+                },
+                {
+                  "title": "Metric 2.2",
+                  "file": "documents/naac/dvv/2-2.pdf"
+                },
+                {
+                  "title": "Metric 2.3.3",
+                  "file": "documents/naac/dvv/2-3-3.pdf"
+                },
+                {
+                  "title": "Metric 2.3",
+                  "file": "documents/naac/dvv/2-3.pdf"
+                },
+                {
+                  "title": "Metric 2.4.1",
+                  "file": "documents/naac/dvv/2-4-1.pdf"
+                },
+                {
+                  "title": "Metric 2.4.2",
+                  "file": "documents/naac/dvv/2-4-2.pdf"
+                },
+                {
+                  "title": "Metric 2.4.3",
+                  "file": "documents/naac/dvv/2-4-3.pdf"
+                },
+                {
+                  "title": "Metric 2.4",
+                  "file": "documents/naac/dvv/2-4.pdf"
+                },
+                {
+                  "title": "Metric 2.5.1",
+                  "file": "documents/naac/dvv/2-5-1.pdf"
+                },
+                {
+                  "title": "Metric 2.5.2",
+                  "file": "documents/naac/dvv/2-5-2.pdf"
+                },
+                {
+                  "title": "Metric 2.6.3",
+                  "file": "documents/naac/dvv/2-6-3.pdf"
+                },
+                {
+                  "title": "Metric 3.1",
+                  "file": "documents/naac/dvv/3-1.pdf"
+                },
+                {
+                  "title": "Metric 3.2.1",
+                  "file": "documents/naac/dvv/3-2-1.pdf"
+                },
+                {
+                  "title": "Metric 3.2.2",
+                  "file": "documents/naac/dvv/3-2-2.pdf"
+                },
+                {
+                  "title": "Metric 3.2.3",
+                  "file": "documents/naac/dvv/3-2-3.pdf"
+                },
+                {
+                  "title": "Metric 3.2.4",
+                  "file": "documents/naac/dvv/3-2-4.pdf"
+                },
+                {
+                  "title": "Metric 3.2",
+                  "file": "documents/naac/dvv/3-2.pdf"
+                },
+                {
+                  "title": "Metric 3.3.2",
+                  "file": "documents/naac/dvv/3-3-2.pdf"
+                },
+                {
+                  "title": "Metric 3.3",
+                  "file": "documents/naac/dvv/3-3.pdf"
+                },
+                {
+                  "title": "Metric 3.4.1",
+                  "file": "documents/naac/dvv/3-4-1.pdf"
+                },
+                {
+                  "title": "Metric 3.4.2",
+                  "file": "documents/naac/dvv/3-4-2.pdf"
+                },
+                {
+                  "title": "Metric 3.4.3",
+                  "file": "documents/naac/dvv/3-4-3.pdf"
+                },
+                {
+                  "title": "Metric 3.4.4",
+                  "file": "documents/naac/dvv/3-4-4.pdf"
+                },
+                {
+                  "title": "Metric 3.5.1",
+                  "file": "documents/naac/dvv/3-5-1.pdf"
+                },
+                {
+                  "title": "Metric 3.5.2",
+                  "file": "documents/naac/dvv/3-5-2.pdf"
+                },
+                {
+                  "title": "Metric 3.6.3",
+                  "file": "documents/naac/dvv/3-6-3.pdf"
+                },
+                {
+                  "title": "Metric 3.6.4",
+                  "file": "documents/naac/dvv/3-6-4.pdf"
+                },
+                {
+                  "title": "Metric 3.7.1",
+                  "file": "documents/naac/dvv/3-7-1.pdf"
+                },
+                {
+                  "title": "Metric 3.7.2",
+                  "file": "documents/naac/dvv/3-7-2.pdf"
+                },
+                {
+                  "title": "Metric 4.1.3",
+                  "file": "documents/naac/dvv/4-1-3.pdf"
+                },
+                {
+                  "title": "Metric 4.1.4",
+                  "file": "documents/naac/dvv/4-1-4.pdf"
+                },
+                {
+                  "title": "Metric 4.2.2",
+                  "file": "documents/naac/dvv/4-2-2.pdf"
+                },
+                {
+                  "title": "Metric 4.2.3",
+                  "file": "documents/naac/dvv/4-2-3.pdf"
+                },
+                {
+                  "title": "Metric 4.2.4",
+                  "file": "documents/naac/dvv/4-2-4.pdf"
+                },
+                {
+                  "title": "Metric 4.2.updated",
+                  "file": "documents/naac/dvv/4-2-updated.pdf"
+                },
+                {
+                  "title": "Metric 4.3.2",
+                  "file": "documents/naac/dvv/4-3-2.pdf"
+                },
+                {
+                  "title": "Metric 4.3.3",
+                  "file": "documents/naac/dvv/4-3-3.pdf"
+                },
+                {
+                  "title": "Metric 4.3.4",
+                  "file": "documents/naac/dvv/4-3-4.pdf"
+                },
+                {
+                  "title": "Metric 4.3",
+                  "file": "documents/naac/dvv/4-3.pdf"
+                },
+                {
+                  "title": "Metric 4.4.1",
+                  "file": "documents/naac/dvv/4-4-1.pdf"
+                },
+                {
+                  "title": "Metric 4.4",
+                  "file": "documents/naac/dvv/4-4.pdf"
+                },
+                {
+                  "title": "Metric 4.5",
+                  "file": "documents/naac/dvv/4-5.pdf"
+                },
+                {
+                  "title": "Metric 5.1.1",
+                  "file": "documents/naac/dvv/5-1-1.pdf"
+                },
+                {
+                  "title": "Metric 5.1.2",
+                  "file": "documents/naac/dvv/5-1-2.pdf"
+                },
+                {
+                  "title": "Metric 5.1.3",
+                  "file": "documents/naac/dvv/5-1-3.pdf"
+                },
+                {
+                  "title": "Metric 5.1.4",
+                  "file": "documents/naac/dvv/5-1-4.pdf"
+                },
+                {
+                  "title": "Metric 5.1.5",
+                  "file": "documents/naac/dvv/5-1-5.pdf"
+                },
+                {
+                  "title": "Metric 5.2.1",
+                  "file": "documents/naac/dvv/5-2-1.pdf"
+                },
+                {
+                  "title": "Metric 5.2.2",
+                  "file": "documents/naac/dvv/5-2-2.pdf"
+                },
+                {
+                  "title": "Metric 5.2.3",
+                  "file": "documents/naac/dvv/5-2-3.pdf"
+                },
+                {
+                  "title": "Metric 5.3.1",
+                  "file": "documents/naac/dvv/5-3-1.pdf"
+                },
+                {
+                  "title": "Metric 5.3.3",
+                  "file": "documents/naac/dvv/5-3-3.pdf"
+                },
+                {
+                  "title": "Metric 5.4.2",
+                  "file": "documents/naac/dvv/5-4-2.pdf"
+                },
+                {
+                  "title": "Metric 6.2.3",
+                  "file": "documents/naac/dvv/6-2-3.pdf"
+                },
+                {
+                  "title": "Metric 6.3.2",
+                  "file": "documents/naac/dvv/6-3-2.pdf"
+                },
+                {
+                  "title": "Metric 6.3.3",
+                  "file": "documents/naac/dvv/6-3-3.pdf"
+                },
+                {
+                  "title": "Metric 6.3.4",
+                  "file": "documents/naac/dvv/6-3-4.pdf"
+                },
+                {
+                  "title": "Metric 6.4.2",
+                  "file": "documents/naac/dvv/6-4-2.pdf"
+                },
+                {
+                  "title": "Metric 6.5.3",
+                  "file": "documents/naac/dvv/6-5-3.pdf"
+                },
+                {
+                  "title": "Metric 7.1.2",
+                  "file": "documents/naac/dvv/7-1-2.pdf"
+                },
+                {
+                  "title": "Metric 7.1.4",
+                  "file": "documents/naac/dvv/7-1-4.pdf"
+                },
+                {
+                  "title": "Metric 7.1.5",
+                  "file": "documents/naac/dvv/7-1-5.pdf"
+                },
+                {
+                  "title": "Metric 7.1.6",
+                  "file": "documents/naac/dvv/7-1-6.pdf"
+                },
+                {
+                  "title": "Metric 7.1.7",
+                  "file": "documents/naac/dvv/7-1-7.pdf"
+                },
+                {
+                  "title": "Metric 7.1.10",
+                  "file": "documents/naac/dvv/7-1-10.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        "review": {
+          "label": "Post-DVV review",
+          "groups": [
+            {
+              "label": "Revised DVV (ReDVV)",
+              "documents": [
+                {
+                  "title": "Metric 3.6.3 — Summary",
+                  "file": "documents/naac/redvv/3-6-3-summary.pdf"
+                },
+                {
+                  "title": "Metric 3.6.4 — Summary",
+                  "file": "documents/naac/redvv/3-6-4-summary.pdf"
+                },
+                {
+                  "title": "Metric 4.3.3 — Summary",
+                  "file": "documents/naac/redvv/4-3-3-summary.pdf"
+                },
+                {
+                  "title": "Metric 5.4.2 — Summary",
+                  "file": "documents/naac/redvv/5-4-2-summary.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Appeal",
+              "documents": [
+                {
+                  "title": "Metric 3.6.3 — Summary",
+                  "file": "documents/naac/appeal/3-6-3-summary.pdf"
+                },
+                {
+                  "title": "Metric 4.1",
+                  "file": "documents/naac/appeal/4-1.pdf"
+                },
+                {
+                  "title": "Metric 4.3.3 — Summary",
+                  "file": "documents/naac/appeal/4-3-3-summary.pdf"
+                },
+                {
+                  "title": "Metric 5.4.2 — Summary",
+                  "file": "documents/naac/appeal/5-4-2-summary.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "nirf": {
+      "title": "NIRF Rankings",
+      "path": "/accreditation/nirf",
+      "folder": "documents/nirf",
+      "blocks": {
+        "documents": {
+          "label": "Submissions",
+          "groups": [
+            {
+              "label": "2026",
+              "documents": [
+                {
+                  "title": "Engineering",
+                  "file": "documents/nirf/nirf-26-engg.pdf"
+                },
+                {
+                  "title": "Overall",
+                  "file": "documents/nirf/nirf-26-overall.pdf"
+                },
+                {
+                  "title": "Innovation",
+                  "file": "documents/nirf/nirf-26-innovation.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2025",
+              "documents": [
+                {
+                  "title": "Engineering",
+                  "file": "documents/nirf/nirf-25-engg.pdf"
+                },
+                {
+                  "title": "Overall",
+                  "file": "documents/nirf/nirf-25-overall.pdf"
+                },
+                {
+                  "title": "Innovation",
+                  "file": "documents/nirf/nirf-25-innovation.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2023",
+              "documents": [
+                {
+                  "title": "Engineering",
+                  "file": "documents/nirf/nirf-engg-report-submitted-20-01-2023.pdf"
+                },
+                {
+                  "title": "Overall",
+                  "file": "documents/nirf/nirf-overall-submitted-20-01-2023.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2022",
+              "documents": [
+                {
+                  "title": "Engineering",
+                  "file": "documents/nirf/nirf-22-engg-report.pdf"
+                },
+                {
+                  "title": "Overall",
+                  "file": "documents/nirf/nirf-22-overall-report.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2021",
+              "documents": [
+                {
+                  "title": "Engineering",
+                  "file": "documents/nirf/nirf-21-engg-report.pdf"
+                },
+                {
+                  "title": "Overall",
+                  "file": "documents/nirf/nirf-21-overall-report.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2020",
+              "documents": [
+                {
+                  "title": "Engineering",
+                  "file": "documents/nirf/nirf-20-engg-submitted.pdf"
+                },
+                {
+                  "title": "Overall",
+                  "file": "documents/nirf/nirf-20-overall-submitted.pdf"
+                }
+              ]
+            },
+            {
+              "label": "2018–19",
+              "documents": [
+                {
+                  "title": "Engineering",
+                  "file": "documents/nirf/nirf-engg-submitted-18-19.pdf"
+                },
+                {
+                  "title": "Overall",
+                  "file": "documents/nirf/nirf-overall-submitted-18-19.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "iqac": {
+      "title": "IQAC",
+      "path": "/accreditation/iqac",
+      "folder": "documents/iqac",
+      "blocks": {
+        "documents": {
+          "label": "Documents",
+          "groups": [
+            {
+              "label": "Annual Quality Assurance Reports (AQAR)",
+              "documents": [
+                {
+                  "title": "AQAR 2017–18",
+                  "file": "documents/iqac/aqar-2017-18.pdf"
+                },
+                {
+                  "title": "AQAR 2018–19",
+                  "file": "documents/iqac/aqar-2018-19.pdf"
+                },
+                {
+                  "title": "AQAR 2019–20",
+                  "file": "documents/iqac/aqar-2019-20.pdf"
+                },
+                {
+                  "title": "AQAR 2020–21",
+                  "file": "documents/iqac/aqar-2020-21.pdf"
+                },
+                {
+                  "title": "AQAR 2023–24",
+                  "file": "documents/iqac/aqar-2023-24-report.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Action Taken Reports",
+              "documents": [
+                {
+                  "title": "Action Taken Report 2019–20",
+                  "file": "documents/iqac/action-taken-report-2019-20.pdf"
+                },
+                {
+                  "title": "Action Taken Report 2020–21",
+                  "file": "documents/iqac/action-taken-report-2020-21.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Academic Calendars",
+              "documents": [
+                {
+                  "title": "Academic Calendar 2017–18",
+                  "file": "documents/iqac/academic-calender-2017-18.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2018–19",
+                  "file": "documents/iqac/academic-calender-2018-19.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2019–20",
+                  "file": "documents/iqac/academic-calender-19-20.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2020–21",
+                  "file": "documents/iqac/academic-calender-2020-21.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2021–22",
+                  "file": "documents/iqac/2021-22-academic-calenders.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2022–23",
+                  "file": "documents/iqac/2022-23-academic-calenders.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2023–24",
+                  "file": "documents/iqac/2023-24-academic-calenders.pdf"
+                }
+              ]
+            },
+            {
+              "label": "IQAC Meetings — Agenda & Resolutions",
+              "documents": [
+                {
+                  "title": "Meeting Agenda — 26 Apr 2018",
+                  "file": "documents/iqac/iqac-meeeting-agenda-26-04-2018.pdf"
+                },
+                {
+                  "title": "Meeting Resolutions — 26 Apr 2018",
+                  "file": "documents/iqac/iqac-meeeting-resolutions-26-04-2018.pdf"
+                },
+                {
+                  "title": "Meeting Agenda — 02 Nov 2018",
+                  "file": "documents/iqac/iqac-meeting-agenda-2-11-2018-1.pdf"
+                },
+                {
+                  "title": "Meeting Resolutions — 02 Nov 2018",
+                  "file": "documents/iqac/iqac-meeting-resolutions-2-11-2018.pdf"
+                },
+                {
+                  "title": "Meeting Agenda — 05 Oct 2020",
+                  "file": "documents/iqac/iqac-agenda-5-10-2020.pdf"
+                },
+                {
+                  "title": "Meeting Resolutions — 05 Oct 2020",
+                  "file": "documents/iqac/iqac-resolutions-5-10-2020.pdf"
+                },
+                {
+                  "title": "IQAC Meeting — 25 Sep 2021",
+                  "file": "documents/iqac/iqac-meeting-1-25-09-2021.pdf"
+                },
+                {
+                  "title": "IQAC Meeting — 04 Apr 2025",
+                  "file": "documents/iqac/iqac-meeting-04-04-2025.pdf"
+                }
+              ]
+            },
+            {
+              "label": "IQAC Members",
+              "documents": [
+                {
+                  "title": "Approved IQAC Members List (2025–2027)",
+                  "file": "documents/iqac/iqac-members-list-2025-27.pdf"
+                },
+                {
+                  "title": "IQAC Members List (Earlier)",
+                  "file": "documents/iqac/members-list.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "teqip": {
+      "title": "TEQIP",
+      "path": "/accreditation/teqip",
+      "folder": "documents/teqip",
+      "blocks": {
+        "documents": {
+          "label": "Documents",
+          "groups": [
+            {
+              "label": "Programme Documents",
+              "documents": [
+                {
+                  "title": "Institutional Development Plan (TEQIP-III)",
+                  "file": "documents/teqip/idp-teqip-iii.pdf"
+                },
+                {
+                  "title": "Guidelines",
+                  "file": "documents/teqip/guidelines.pdf"
+                },
+                {
+                  "title": "Environmental Action Plan (EAP)",
+                  "file": "documents/teqip/eap.pdf"
+                },
+                {
+                  "title": "Academic Activities",
+                  "file": "documents/teqip/academic-activities.pdf"
+                },
+                {
+                  "title": "Procurement",
+                  "file": "documents/teqip/procurement.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Performance Audit Reports (PAR)",
+              "documents": [
+                {
+                  "title": "PAR 2018–19",
+                  "file": "documents/teqip/par-2018-19.pdf"
+                },
+                {
+                  "title": "PAR 2019–20",
+                  "file": "documents/teqip/par-2019-20.pdf"
+                },
+                {
+                  "title": "PAR 2020–21",
+                  "file": "documents/teqip/par-2020-21.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Academic Calendars",
+              "documents": [
+                {
+                  "title": "Academic Calendar 2017–18",
+                  "file": "documents/teqip/academic-calender-2017-18.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2018–19",
+                  "file": "documents/teqip/academic-calender-2018-19.pdf"
+                },
+                {
+                  "title": "Academic Calendar 2019–20",
+                  "file": "documents/teqip/academic-calender-19-20.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Quality Reports (AQAR)",
+              "documents": [
+                {
+                  "title": "AQAR 2017–18",
+                  "file": "documents/teqip/aqar-2017-18-18-03-2020.pdf"
+                },
+                {
+                  "title": "AQAR 2018–19",
+                  "file": "documents/teqip/aqar-2018-19-18-03-2020.pdf"
+                }
+              ]
+            },
+            {
+              "label": "MoUs & Research",
+              "documents": [
+                {
+                  "title": "Memorandum of Understanding",
+                  "file": "documents/teqip/mou.pdf"
+                },
+                {
+                  "title": "MoU — BEC & GBC (15 May 2025)",
+                  "file": "documents/teqip/mou-bec-gbc-15-5-25.pdf"
+                },
+                {
+                  "title": "Research Scholars' Assistantship List",
+                  "file": "documents/teqip/research-scholars-assitantship-list.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "vtu": {
+      "title": "VTU Affiliation",
+      "path": "/accreditation/vtu",
+      "folder": "documents/vtu",
+      "blocks": {
+        "documents": {
+          "label": "Affiliation orders",
+          "groups": [
+            {
+              "label": "Affiliation Orders",
+              "documents": [
+                {
+                  "title": "VTU Affiliation Order (2025–26)",
+                  "file": "documents/vtu/vtu-affiliation-2025-26.pdf"
+                },
+                {
+                  "title": "VTU Affiliation Order (2023-24 & 2024-25)",
+                  "file": "documents/vtu/vtu-affiliation-2023-24-and-2024-25.pdf"
+                },
+                {
+                  "title": "VTU Affiliation Order (2022–23)",
+                  "file": "documents/vtu/vtu-affiliation-2022-23.pdf"
+                },
+                {
+                  "title": "VTU Affiliation Order (2021–22)",
+                  "file": "documents/vtu/vtu-affiliation-2021-22.pdf"
+                },
+                {
+                  "title": "VTU Affiliation Order (2020–21)",
+                  "file": "documents/vtu/vtu-affiliation-2020-21.pdf"
+                },
+                {
+                  "title": "VTU Affiliation Order (2019–20)",
+                  "file": "documents/vtu/vtu-affiliation19-20.pdf"
+                },
+                {
+                  "title": "VTU Affiliation Order (2018)",
+                  "file": "documents/vtu/vtuaffiliation2018.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "governance": {
+      "title": "Governance",
+      "path": "/administration/governance",
+      "folder": "documents/governance",
+      "blocks": {
+        "academic-council": {
+          "label": "Academic Council documents",
+          "groups": [
+            {
+              "label": "Academic Council Resolutions",
+              "description": "Resolutions from the 9th to 12th Academic Council meetings.",
+              "documents": [
+                {
+                  "title": "12th ACM Resolutions",
+                  "file": "documents/governance/academic-council/resolutions/12-acm-resolutions.pdf"
+                },
+                {
+                  "title": "11th ACM Resolutions",
+                  "file": "documents/governance/academic-council/resolutions/11-acm-resolutions.pdf"
+                },
+                {
+                  "title": "10th ACM Resolutions",
+                  "file": "documents/governance/academic-council/resolutions/10-acm-resolutions.pdf"
+                },
+                {
+                  "title": "9th ACM Resolutions",
+                  "file": "documents/governance/academic-council/resolutions/9-acm-resolutions.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Academic Council Proceedings",
+              "description": "Proceedings from the 20th to 25th Academic Council meetings.",
+              "documents": [
+                {
+                  "title": "25th ACM Proceedings",
+                  "file": "documents/governance/academic-council/proceedings/25-acm-proceedings.pdf"
+                },
+                {
+                  "title": "24th ACM Proceedings",
+                  "file": "documents/governance/academic-council/proceedings/24-acm-proceedings.pdf"
+                },
+                {
+                  "title": "23rd ACM Proceedings",
+                  "file": "documents/governance/academic-council/proceedings/23-acm-proceedings.pdf"
+                },
+                {
+                  "title": "22nd ACM Proceedings",
+                  "file": "documents/governance/academic-council/proceedings/22-acm-proceedings.pdf"
+                },
+                {
+                  "title": "21st ACM Proceedings",
+                  "file": "documents/governance/academic-council/proceedings/21-acm-proceedings.pdf"
+                },
+                {
+                  "title": "20th ACM Proceedings",
+                  "file": "documents/governance/academic-council/proceedings/20-acm-proceedings.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "administration-rules": {
+      "title": "Service Rules",
+      "path": "/administration/rules",
+      "folder": "documents/administration/rules",
+      "blocks": {
+        "documents": {
+          "label": "Service rules",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "Karnataka State Civil Service (Conduct) Rules, 2021 (Kannada)",
+                  "file": "documents/administration/rules/karnataka-civil-service-conduct-rules-2021-kannada.pdf",
+                  "isNew": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "brochure": {
+      "title": "Institute Brochure",
+      "path": "/institute/brochure",
+      "folder": "documents/institute",
+      "blocks": {
+        "documents": {
+          "label": "Brochure",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "Institute Brochure (Scheme & Prospectus)",
+                  "file": "documents/institute/brochure.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ced": {
+      "title": "CED Cell",
+      "path": "/institute/cells/ced",
+      "folder": "documents/cells/ced",
+      "blocks": {
+        "documents": {
+          "label": "Documents",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "BEC-CED — Details",
+                  "file": "documents/cells/ced/ced-details.pdf"
+                },
+                {
+                  "title": "BEC-CED — Activity Report",
+                  "file": "documents/cells/ced/activity-report.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "iep": {
+      "title": "Innovation & Entrepreneurship Policy",
+      "path": "/institute/cells/iep",
+      "folder": "documents/cells/iep",
+      "blocks": {
+        "documents": {
+          "label": "Policy downloads",
+          "groups": [
+            {
+              "label": "Policy Downloads",
+              "documents": [
+                {
+                  "title": "BEC Innovation & Entrepreneurship Policy (Revised 2026)",
+                  "file": "documents/cells/iic/bec-ie-policy-2026.pdf"
+                },
+                {
+                  "title": "MoE National Innovation and Startup Policy 2019",
+                  "file": "documents/cells/iic/nisp-2019.pdf",
+                  "meta": "NISP resource linked from the legacy page"
+                },
+                {
+                  "title": "Karnataka State Startup Policy 2025-2030",
+                  "url": "https://eitbt.karnataka.gov.in/startup/public/uploads/media_to_upload1763380262.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "iic": {
+      "title": "Institution's Innovation Council (IIC)",
+      "path": "/institute/cells/iic",
+      "folder": "documents/cells/iic",
+      "blocks": {
+        "documents": {
+          "label": "Documents",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "BEC Innovation & Entrepreneurship Policy (Revised 2026)",
+                  "file": "documents/cells/iic/bec-ie-policy-2026.pdf"
+                },
+                {
+                  "title": "Karnataka Startup Portal",
+                  "url": "https://eitbt.karnataka.gov.in/startup/public/41/vision-&-objectives-/en",
+                  "meta": "External Link"
+                }
+              ]
+            },
+            {
+              "label": "Annual Activity Reports",
+              "documents": [
+                {
+                  "title": "2018–19",
+                  "file": "documents/cells/iic/activities/18-19.pdf"
+                },
+                {
+                  "title": "2019–20",
+                  "file": "documents/cells/iic/activities/19-20.pdf"
+                },
+                {
+                  "title": "2020–21",
+                  "file": "documents/cells/iic/activities/20-21.pdf"
+                },
+                {
+                  "title": "2021–22",
+                  "file": "documents/cells/iic/activities/21-22.pdf"
+                },
+                {
+                  "title": "2022–23",
+                  "file": "documents/cells/iic/activities/22-23.csv",
+                  "meta": "CSV Report"
+                },
+                {
+                  "title": "2023–24",
+                  "file": "documents/cells/iic/activities/23-24.csv",
+                  "meta": "CSV Report"
+                },
+                {
+                  "title": "2024–25",
+                  "file": "documents/cells/iic/activities/24-25.csv",
+                  "meta": "CSV Report"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "iipc": {
+      "title": "Industry Institute Partnership Cell (IIPC)",
+      "path": "/institute/cells/iipc",
+      "folder": "documents/cells/iipc",
+      "blocks": {
+        "documents": {
+          "label": "MoUs",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "MoU — Bit Bytes (MBA)",
+                  "file": "documents/cells/iipc/mou-bit-bytes-mba.pdf"
+                },
+                {
+                  "title": "MoU — CNC India (Mechanical)",
+                  "file": "documents/cells/iipc/mou-cnc-india-mech.pdf"
+                },
+                {
+                  "title": "MoU — Sphoorti (Mechanical)",
+                  "file": "documents/cells/iipc/mou-sphoorti-mech.pdf"
+                },
+                {
+                  "title": "MoU — Unnati (Mechanical)",
+                  "file": "documents/cells/iipc/mou-unnati-mech.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "nain": {
+      "title": "NAIN",
+      "path": "/institute/cells/nain",
+      "folder": "documents/cells/nain",
+      "blocks": {
+        "nain-1": {
+          "label": "NAIN 1.0 documents",
+          "groups": [
+            {
+              "label": "For Applicants",
+              "documents": [
+                {
+                  "title": "Student Application Form",
+                  "file": "documents/cells/nain/application-form.pdf"
+                },
+                {
+                  "title": "Registration Form",
+                  "file": "documents/cells/nain/registration-form.pdf"
+                },
+                {
+                  "title": "Selected Projects List",
+                  "file": "documents/cells/nain/projects-list.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Event Reports",
+              "documents": [
+                {
+                  "title": "Pre-Hackathon 2014",
+                  "file": "documents/cells/nain/reports/pre-hackathon-2014.pdf"
+                },
+                {
+                  "title": "Hackathon 2014",
+                  "file": "documents/cells/nain/reports/hackathon-2014.pdf"
+                },
+                {
+                  "title": "Pre-Hackathon 2016",
+                  "file": "documents/cells/nain/reports/pre-hackathon-2016.pdf"
+                },
+                {
+                  "title": "Ideathon 2018",
+                  "file": "documents/cells/nain/reports/ideathon-2018.pdf"
+                },
+                {
+                  "title": "E-Step Bootcamp 2019",
+                  "file": "documents/cells/nain/reports/e-step-bootcamp-2019.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "research": {
+      "title": "Research",
+      "path": "/research",
+      "folder": "documents/research",
+      "blocks": {
+        "scopus": {
+          "label": "Scopus publications",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "Scopus Publications 2022–23",
+                  "file": "documents/research/scopus-2022.pdf"
+                },
+                {
+                  "title": "Scopus Publications 2021–22",
+                  "file": "documents/research/scopus-2021.pdf"
+                },
+                {
+                  "title": "Scopus Publications 2020–21",
+                  "file": "documents/research/scopus-2020.pdf"
+                },
+                {
+                  "title": "Scopus Publications 2019–20",
+                  "file": "documents/research/scopus-2019.pdf"
+                },
+                {
+                  "title": "Scopus Publications 2018–19",
+                  "file": "documents/research/scopus-2018.pdf"
+                },
+                {
+                  "title": "Scopus Publications 2017–18",
+                  "file": "documents/research/scopus-2017.pdf"
+                }
+              ]
+            }
+          ]
+        },
+        "policies": {
+          "label": "Policies & regulations",
+          "groups": [
+            {
+              "label": "Policy & Regulations",
+              "documents": [
+                {
+                  "title": "Research Policy",
+                  "file": "documents/research/research-policy.pdf"
+                },
+                {
+                  "title": "Research Regulations",
+                  "file": "documents/research/research-regulations.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Patents & Sponsored Research",
+              "documents": [
+                {
+                  "title": "Patents Filed & Granted",
+                  "file": "documents/research/patents.pdf"
+                },
+                {
+                  "title": "Sponsored Research Projects",
+                  "file": "documents/research/sponsored-research.pdf"
+                }
+              ]
+            },
+            {
+              "label": "Research Committees",
+              "documents": [
+                {
+                  "title": "Research Advisory Committee",
+                  "file": "documents/research/committee-advisory.pdf"
+                },
+                {
+                  "title": "Research Ethics Committee",
+                  "file": "documents/research/committee-ethics.pdf"
+                },
+                {
+                  "title": "Research Review Committee",
+                  "file": "documents/research/committee-review.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "alumni": {
+      "title": "Alumni",
+      "path": "/student-life/alumni",
+      "folder": "documents/alumni",
+      "blocks": {
+        "documents": {
+          "label": "Reports",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "BEC Alumni Association — Activity Report (July 2026)",
+                  "file": "documents/alumni/report-july-2026.pdf",
+                  "meta": "PDF · 1.8 MB"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "gymkhana": {
+      "title": "Gymkhana",
+      "path": "/student-life/gymkhana",
+      "folder": "documents/gymkhana",
+      "blocks": {
+        "documents": {
+          "label": "Reports",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "Gymkhana Activities 2023-24",
+                  "file": "documents/gymkhana/activities-2023-24.pdf"
+                },
+                {
+                  "title": "Annual Report 2022-23",
+                  "file": "documents/gymkhana/report-2022-23.pdf"
+                },
+                {
+                  "title": "Annual Report 2021-22",
+                  "file": "documents/gymkhana/report-2021-22.pdf"
+                },
+                {
+                  "title": "Annual Report 2020-21",
+                  "file": "documents/gymkhana/report-2020-21.pdf"
+                },
+                {
+                  "title": "Annual Report 2018-19",
+                  "file": "documents/gymkhana/report-2018-19.pdf"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "ieee": {
+      "title": "IEEE Student Branch",
+      "path": "/student-life/ieee",
+      "folder": "documents/ieee",
+      "blocks": {
+        "documents": {
+          "label": "Reports",
+          "groups": [
+            {
+              "documents": [
+                {
+                  "title": "IEEE Annual Report 2025",
+                  "file": "documents/ieee/annual-report-2025.pdf",
+                  "meta": "Branch activity report"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }
+}
