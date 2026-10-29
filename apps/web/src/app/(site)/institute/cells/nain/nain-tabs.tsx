@@ -7,7 +7,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { SectionHeading } from "@/components/common/section-heading";
 import { PersonCard, PersonGrid } from "@/components/common/person-card";
 import { PhotoGallery } from "@/components/common/photo-gallery";
-import { DocumentDirectory } from "@/components/common/document-directory";
+import { DocumentDirectory, type DocumentGroup } from "@/components/common/document-directory";
 import { asset, assetsUnder } from "@/lib/assets";
 
 const v2Highlights = [
@@ -417,7 +417,7 @@ function NainV2() {
   );
 }
 
-function NainV1() {
+function NainV1({ documents }: { documents: DocumentGroup[] }) {
   return (
     <div className="space-y-16">
       <div className="space-y-6">
@@ -515,33 +515,14 @@ function NainV1() {
       <div className="space-y-8">
         <SectionHeading eyebrow="Apply & Records" title="Forms, Projects & Reports" />
         <DocumentDirectory
-          groups={[
-            {
-              label: "For Applicants",
-              documents: [
-                { title: "Student Application Form", url: asset("documents/cells/nain/application-form.pdf") },
-                { title: "Registration Form", url: asset("documents/cells/nain/registration-form.pdf") },
-                { title: "Selected Projects List", url: asset("documents/cells/nain/projects-list.pdf") },
-              ],
-            },
-            {
-              label: "Event Reports",
-              documents: [
-                { title: "Pre-Hackathon 2014", url: asset("documents/cells/nain/reports/pre-hackathon-2014.pdf") },
-                { title: "Hackathon 2014", url: asset("documents/cells/nain/reports/hackathon-2014.pdf") },
-                { title: "Pre-Hackathon 2016", url: asset("documents/cells/nain/reports/pre-hackathon-2016.pdf") },
-                { title: "Ideathon 2018", url: asset("documents/cells/nain/reports/ideathon-2018.pdf") },
-                { title: "E-Step Bootcamp 2019", url: asset("documents/cells/nain/reports/e-step-bootcamp-2019.pdf") },
-              ],
-            },
-          ]}
+          groups={documents}
         />
       </div>
     </div>
   );
 }
 
-export function NainTabs() {
+export function NainTabs({ v1Documents }: { v1Documents: DocumentGroup[] }) {
   return (
     <Tabs defaultValue="v2" className="gap-0">
       <div className="flex justify-center">
@@ -567,7 +548,7 @@ export function NainTabs() {
         <NainV2 />
       </TabsContent>
       <TabsContent value="v1" className="mt-12">
-        <NainV1 />
+        <NainV1 documents={v1Documents} />
       </TabsContent>
     </Tabs>
   );

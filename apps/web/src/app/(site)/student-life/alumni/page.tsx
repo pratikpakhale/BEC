@@ -2,7 +2,7 @@ import { pageMetadata } from "@/lib/seo";
 import { PageHero } from "@/components/common/page-hero";
 import { SectionHeading } from "@/components/common/section-heading";
 import { DocumentDirectory } from "@/components/common/document-directory";
-import { asset } from "@/lib/assets";
+import { documentGroups } from "@/content/documents";
 import { Globe, GraduationCap, Briefcase, HeartHandshake, Mail, Phone, Users } from "lucide-react";
 
 export const metadata = pageMetadata({
@@ -156,17 +156,7 @@ export default function AlumniPage() {
             description="A consolidated record of alumni achievements, placement contributions, reunions, technical talks and campus visits."
           />
           <DocumentDirectory
-            groups={[
-              {
-                documents: [
-                  {
-                    title: "BEC Alumni Association — Activity Report (July 2026)",
-                    url: asset("documents/alumni/report-july-2026.pdf"),
-                    meta: "PDF · 1.8 MB",
-                  },
-                ],
-              },
-            ]}
+            groups={documentGroups("alumni", "documents")}
           />
         </div>
 

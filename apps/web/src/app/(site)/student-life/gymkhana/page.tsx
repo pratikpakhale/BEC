@@ -4,6 +4,7 @@ import { SectionHeading } from "@/components/common/section-heading";
 import { PersonCard, PersonGrid } from "@/components/common/person-card";
 import { PhotoGallery } from "@/components/common/photo-gallery";
 import { DocumentDirectory } from "@/components/common/document-directory";
+import { documentGroups } from "@/content/documents";
 import { asset } from "@/lib/assets";
 import { cn } from "@/lib/utils";
 import { Trees, Warehouse, Medal } from "lucide-react";
@@ -464,17 +465,7 @@ export default function GymkhanaPage() {
         <div className="space-y-8">
           <SectionHeading eyebrow="Records" title="Annual Reports" />
           <DocumentDirectory
-            groups={[
-              {
-                documents: [
-                  { title: "Gymkhana Activities 2023-24", url: asset("documents/gymkhana/activities-2023-24.pdf") },
-                  { title: "Annual Report 2022-23", url: asset("documents/gymkhana/report-2022-23.pdf") },
-                  { title: "Annual Report 2021-22", url: asset("documents/gymkhana/report-2021-22.pdf") },
-                  { title: "Annual Report 2020-21", url: asset("documents/gymkhana/report-2020-21.pdf") },
-                  { title: "Annual Report 2018-19", url: asset("documents/gymkhana/report-2018-19.pdf") },
-                ],
-              },
-            ]}
+            groups={documentGroups("gymkhana", "documents")}
           />
         </div>
       </section>

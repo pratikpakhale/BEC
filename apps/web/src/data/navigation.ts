@@ -69,6 +69,7 @@ export const navigationData: NavigationItem[] = [
       { title: "Principal", href: "/administration/principal" },
       { title: "Deans", href: "/administration/governance#deans" },
       { title: "Heads of Departments", href: "/administration/governance#hods" },
+      { title: "Service Rules", href: "/administration/rules" },
       {
         title: "Public Disclosures",
         items: [{ title: "RTI", href: "/administration/disclosures/rti" }],
@@ -94,6 +95,7 @@ export const navigationData: NavigationItem[] = [
         ],
       },
       { title: "Academic Calendar", href: "/academics/calendar" },
+      { title: "College Students List", href: "/academics/students-list" },
     ],
   },
 

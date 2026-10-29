@@ -1,4 +1,5 @@
 import { BreadcrumbsJsonLd } from "@/components/seo/jsonld";
+import { documentGroups } from "@/content/documents";
 import { pageMetadata } from "@/lib/seo";
 
 import { ResearchContent } from "./research-content";
@@ -14,7 +15,12 @@ export default function ResearchPage() {
   return (
     <>
       <BreadcrumbsJsonLd items={[{ name: "Research", path: "/research" }]} />
-      <ResearchContent />
+      <ResearchContent
+        documents={{
+          scopus: documentGroups("research", "scopus"),
+          policies: documentGroups("research", "policies"),
+        }}
+      />
     </>
   );
 }

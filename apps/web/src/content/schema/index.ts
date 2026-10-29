@@ -10,6 +10,7 @@ import { facultyContentSchema } from "./faculty.ts";
 import { placementsContentSchema } from "./placements.ts";
 import { departmentsContentSchema } from "./departments.ts";
 import { newsContentSchema } from "./news.ts";
+import { documentsContentSchema } from "./documents.ts";
 
 export { homeContentSchema, type HomeContent } from "./home.ts";
 export { governanceContentSchema, bogCategorySchema, type GovernanceContent } from "./governance.ts";
@@ -33,6 +34,13 @@ export {
   type NewsContent,
   type NewsItem,
 } from "./news.ts";
+export {
+  documentsContentSchema,
+  documentPageSchema,
+  type DocumentsContent,
+  type DocumentPage,
+  type DocumentLink,
+} from "./documents.ts";
 export { assetKey, docRef, dataTable, parseContent } from "./shared.ts";
 
 /** One entry per content file: data file name, schema, and the generated *.schema.json metadata. */
@@ -86,5 +94,13 @@ export const contentFiles: {
     description:
       "Per-department content keyed by the URL slug used in /departments/<type>/<slug>. Only `name` is required; fill the rest as content arrives.",
     schema: departmentsContentSchema,
+  },
+  {
+    file: "documents.json",
+    schemaFile: "documents.schema.json",
+    title: "BEC page document lists",
+    description:
+      "The downloadable documents listed on site pages (NBA, NAAC, NIRF, calendars, cells…), keyed by page and then by the block on that page. Each page's code asks for its blocks by name; src/content/documents.ts resolves file keys to R2 URLs.",
+    schema: documentsContentSchema,
   },
 ];

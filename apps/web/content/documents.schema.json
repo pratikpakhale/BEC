@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "BEC page document lists",
+  "description": "The downloadable documents listed on site pages (NBA, NAAC, NIRF, calendars, cells…), keyed by page and then by the block on that page. Each page's code asks for its blocks by name; src/content/documents.ts resolves file keys to R2 URLs.",
+  "type": "object",
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "object",
+      "propertyNames": {
+        "type": "string",
+        "pattern": "^[a-z0-9-]+$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "title": {
+            "type": "string",
+            "minLength": 1,
+            "description": "The page's name, as the Admin lists it."
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^\\/[a-z0-9/-]*$",
+            "description": "The page's address on the site."
+          },
+          "folder": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9/-]*[a-z0-9]$",
+            "description": "Where the Admin files new uploads for this page on R2."
+          },
+          "blocks": {
+            "type": "object",
+            "propertyNames": {
+              "type": "string",
+              "pattern": "^[a-z0-9-]+$"
+            },
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "label": {
+                  "type": "string",
+                  "minLength": 1,
+                  "description": "What the Admin calls this list, e.g. \"Criteria-wise documents\"."
+                },
+                "groups": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "label": {
+                        "description": "The heading above the documents, e.g. \"2025\".",
+                        "type": "string"
+                      },
+                      "description": {
+                        "description": "A sentence under the heading.",
+                        "type": "string"
+                      },
+                      "documents": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "type": "string",
+                              "minLength": 1,
+                              "description": "What the link says, e.g. \"AQAR 2022–23\"."
+                            },
+                            "file": {
+                              "description": "The document on R2, usually a PDF.",
+                              "allOf": [
+                                {
+                                  "$ref": "./_schema/asset-keys.json"
+                                }
+                              ]
+                            },
+                            "url": {
+                              "description": "A web address outside this site, used instead of `file`.",
+                              "type": "string",
+                              "format": "uri"
+                            },
+                            "meta": {
+                              "description": "A short note printed under the title, e.g. \"CSV Report\".",
+                              "type": "string"
+                            },
+                            "isNew": {
+                              "description": "Shows a \"New\" badge beside the title.",
+                              "type": "boolean",
+                              "const": true
+                            }
+                          },
+                          "required": [
+                            "title"
+                          ],
+                          "additionalProperties": false
+                        }
+                      }
+                    },
+                    "required": [
+                      "documents"
+                    ],
+                    "additionalProperties": false
+                  }
+                }
+              },
+              "required": [
+                "label",
+                "groups"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "title",
+          "path",
+          "folder",
+          "blocks"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "pages"
+  ],
+  "additionalProperties": false
+}

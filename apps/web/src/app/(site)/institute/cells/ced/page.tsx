@@ -4,6 +4,7 @@ import { PageHero } from "@/components/common/page-hero";
 import { SectionHeading } from "@/components/common/section-heading";
 import { PersonCard, PersonGrid } from "@/components/common/person-card";
 import { DocumentDirectory } from "@/components/common/document-directory";
+import { documentGroups } from "@/content/documents";
 import { asset } from "@/lib/assets";
 import { pageMetadata } from "@/lib/seo";
 
@@ -66,14 +67,7 @@ export default function CedPage() {
         <div className="space-y-8">
           <SectionHeading eyebrow="Records" title="Documents" />
           <DocumentDirectory
-            groups={[
-              {
-                documents: [
-                  { title: "BEC-CED — Details", url: asset("documents/cells/ced/ced-details.pdf") },
-                  { title: "BEC-CED — Activity Report", url: asset("documents/cells/ced/activity-report.pdf") },
-                ],
-              },
-            ]}
+            groups={documentGroups("ced", "documents")}
           />
         </div>
       </section>

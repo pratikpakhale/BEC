@@ -17,6 +17,7 @@
  */
 
 import departments from "@content/departments.json";
+import documents from "@content/documents.json";
 import faculty from "@content/faculty.json";
 import governance from "@content/governance.json";
 import home from "@content/home.json";
@@ -34,9 +35,10 @@ const CONTENT_FILES = [
   "faculty.json",
   "placements.json",
   "departments.json",
+  "documents.json",
 ] as const;
 
-const BUNDLED: unknown[] = [home, news, governance, faculty, placements, departments];
+const BUNDLED: unknown[] = [home, news, governance, faculty, placements, departments, documents];
 
 /** Same minute of staleness as the asset index: it is the same GitHub read twice. */
 const CACHE_MS = 60_000;
