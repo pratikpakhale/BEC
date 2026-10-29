@@ -5,6 +5,7 @@ import { pageMetadata } from "@/lib/seo";
 import { PageHero } from "@/components/common/page-hero";
 import { SectionHeading } from "@/components/common/section-heading";
 import { DocumentDirectory } from "@/components/common/document-directory";
+import { documentGroups } from "@/content/documents";
 import { asset } from "@/lib/assets";
 import {
   Award,
@@ -395,17 +396,7 @@ export default function IEEEPage() {
         <div className="space-y-8">
           <SectionHeading eyebrow="Records" title="Reports" />
           <DocumentDirectory
-            groups={[
-              {
-                documents: [
-                  {
-                    title: "IEEE Annual Report 2025",
-                    url: asset("documents/ieee/annual-report-2025.pdf"),
-                    meta: "Branch activity report",
-                  },
-                ],
-              },
-            ]}
+            groups={documentGroups("ieee", "documents")}
           />
         </div>
       </section>

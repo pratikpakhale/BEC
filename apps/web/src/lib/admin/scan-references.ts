@@ -39,6 +39,10 @@ const SKIP = new Set([
   // The manifest is the *inventory*, not a reference: every key on R2 is in it,
   // so scanning it would protect the whole bucket and find nothing to clean.
   "data/asset-manifest.ts",
+  // This scan's own output. Reading it back would make every key it ever
+  // listed protect itself, so a list moved out of the code into a content
+  // file would never leave it.
+  "data/asset-references.ts",
   // The Admin is not the site. Its gallery registry lists every prefix and its
   // comments quote `assetsUnder("some/prefix/")`; neither draws a page.
   "lib/admin",

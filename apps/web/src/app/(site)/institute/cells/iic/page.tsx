@@ -8,6 +8,7 @@ import { SectionHeading } from "@/components/common/section-heading";
 import { PersonCard, PersonGrid } from "@/components/common/person-card";
 import { PhotoGallery } from "@/components/common/photo-gallery";
 import { DocumentDirectory } from "@/components/common/document-directory";
+import { documentGroups } from "@/content/documents";
 import { asset, assetsUnder } from "@/lib/assets";
 import { pageMetadata } from "@/lib/seo";
 
@@ -260,33 +261,7 @@ export default function IicPage() {
         <div className="space-y-8">
           <SectionHeading eyebrow="Records" title="Policy & Activity Reports" />
           <DocumentDirectory
-            groups={[
-              {
-                documents: [
-                  {
-                    title: "BEC Innovation & Entrepreneurship Policy (Revised 2026)",
-                    url: asset("documents/cells/iic/bec-ie-policy-2026.pdf"),
-                  },
-                  {
-                    title: "Karnataka Startup Portal",
-                    url: "https://eitbt.karnataka.gov.in/startup/public/41/vision-&-objectives-/en",
-                    meta: "External Link",
-                  },
-                ],
-              },
-              {
-                label: "Annual Activity Reports",
-                documents: [
-                  { title: "2018–19", url: asset("documents/cells/iic/activities/18-19.pdf") },
-                  { title: "2019–20", url: asset("documents/cells/iic/activities/19-20.pdf") },
-                  { title: "2020–21", url: asset("documents/cells/iic/activities/20-21.pdf") },
-                  { title: "2021–22", url: asset("documents/cells/iic/activities/21-22.pdf") },
-                  { title: "2022–23", url: asset("documents/cells/iic/activities/22-23.csv"), meta: "CSV Report" },
-                  { title: "2023–24", url: asset("documents/cells/iic/activities/23-24.csv"), meta: "CSV Report" },
-                  { title: "2024–25", url: asset("documents/cells/iic/activities/24-25.csv"), meta: "CSV Report" },
-                ],
-              },
-            ]}
+            groups={documentGroups("iic", "documents")}
           />
         </div>
 

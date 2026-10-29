@@ -2,12 +2,7 @@ import { PageHero } from "@/components/common/page-hero";
 import { DocumentDirectory } from "@/components/common/document-directory";
 import { SectionHeading } from "@/components/common/section-heading";
 import { pageMetadata } from "@/lib/seo";
-import {
-  naacCertification,
-  naacCriteria,
-  naacDvv,
-  naacReview,
-} from "@/data/accreditation/naac";
+import { documentGroups } from "@/content/documents";
 
 export const metadata = pageMetadata({
   title: "NAAC Accreditation",
@@ -27,7 +22,7 @@ export default function NaacPage() {
 
       <section className="container mx-auto max-w-6xl px-4 lg:px-6 py-14 md:py-18 space-y-16">
         <div className="space-y-8">
-          <DocumentDirectory groups={naacCertification} />
+          <DocumentDirectory groups={documentGroups("naac", "certification")} />
         </div>
 
         <div className="space-y-8">
@@ -36,7 +31,7 @@ export default function NaacPage() {
             title="Criterion-wise metrics"
             description="Supporting documents organised under the seven NAAC assessment criteria."
           />
-          <DocumentDirectory groups={naacCriteria} />
+          <DocumentDirectory groups={documentGroups("naac", "criteria")} />
         </div>
 
         <div className="space-y-8">
@@ -45,7 +40,7 @@ export default function NaacPage() {
             title="Data Validation & Verification"
             description="Metric-wise clarifications submitted during the DVV process."
           />
-          <DocumentDirectory groups={naacDvv} />
+          <DocumentDirectory groups={documentGroups("naac", "dvv")} />
         </div>
 
         <div className="space-y-8">
@@ -54,7 +49,7 @@ export default function NaacPage() {
             title="Revised DVV & Appeal"
             description="Revised DVV submissions and appeal records."
           />
-          <DocumentDirectory groups={naacReview} />
+          <DocumentDirectory groups={documentGroups("naac", "review")} />
         </div>
       </section>
     </main>

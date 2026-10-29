@@ -34,6 +34,9 @@ export { serializeContentFile } from "../../content/format.ts";
  */
 const SCOPED_COLLECTIONS: Record<string, string> = {
   "departments.json": "departments",
+  // One site page's document lists. NAAC alone is 158 documents, and two
+  // Editors updating NBA and the calendar at once must not undo each other.
+  "documents.json": "pages",
 };
 
 /** The map field a file's entries live under, or null if it publishes whole. */

@@ -1,6 +1,6 @@
 import { PageHero } from "@/components/common/page-hero";
 import { DocumentDirectory } from "@/components/common/document-directory";
-import { asset } from "@/lib/assets";
+import { documentGroups } from "@/content/documents";
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
@@ -25,24 +25,7 @@ export default function NbaPage() {
 
       <section className="container mx-auto max-w-6xl px-4 lg:px-6 py-14 md:py-18">
         <DocumentDirectory
-          groups={[
-            {
-              label: "Accreditation Certificates",
-              documents: [
-                { title: "Civil, Computer Science, Electronics & Communication and Mechanical Engineering — 2025–26 to 30 June 2028", url: asset("documents/nba/nba-civil-cse-ece-mech-2025-2028.pdf") },
-                { title: "Information Science & Engineering (ISE) — 2023–24 to 30 June 2026", url: asset("documents/nba/nba-ise-2023-2026.pdf") },
-                { title: "Electrical & Electronics Engineering and Biotechnology — 2022–23 to 30 June 2025", url: asset("documents/nba/nba-eee-bt-2022-2025.pdf") },
-              ],
-            },
-            {
-              label: "Data Capturing Points",
-              description:
-                "Data capturing points of the programmes applied for NBA accreditation (Tier I, UG Engineering), submitted on 10 March 2025.",
-              documents: [
-                { title: "Biotechnology and Electrical & Electronics Engineering", url: asset("documents/nba/nba-data-capturing-points-2025.pdf") },
-              ],
-            },
-          ]}
+          groups={documentGroups("nba", "documents")}
         />
       </section>
     </main>

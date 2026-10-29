@@ -17,7 +17,7 @@ import {
   Target,
 } from "lucide-react";
 
-import { DocumentDirectory } from "@/components/common/document-directory";
+import { DocumentDirectory, type DocumentGroup } from "@/components/common/document-directory";
 import { PhotoGallery } from "@/components/common/photo-gallery";
 import { SectionHeading } from "@/components/common/section-heading";
 import { Badge } from "@/components/ui/badge";
@@ -93,7 +93,11 @@ function matchesFilter(status: PatentStatus, filter: PatentFilter) {
 
 const ongoingProjects = sponsoredProjects.filter((p) => p.status === "Ongoing").length;
 
-export function ResearchContent() {
+export function ResearchContent({
+  documents,
+}: {
+  documents: { scopus: DocumentGroup[]; policies: DocumentGroup[] };
+}) {
   const [activeCentre, setActiveCentre] = useState(flagshipCentres[0].key);
   const [patentFilter, setPatentFilter] = useState<PatentFilter>("all");
 
@@ -822,18 +826,7 @@ export function ResearchContent() {
               Scopus.
             </p>
             <DocumentDirectory
-              groups={[
-                {
-                  documents: [
-                    { title: "Scopus Publications 2022–23", url: asset("documents/research/scopus-2022.pdf") },
-                    { title: "Scopus Publications 2021–22", url: asset("documents/research/scopus-2021.pdf") },
-                    { title: "Scopus Publications 2020–21", url: asset("documents/research/scopus-2020.pdf") },
-                    { title: "Scopus Publications 2019–20", url: asset("documents/research/scopus-2019.pdf") },
-                    { title: "Scopus Publications 2018–19", url: asset("documents/research/scopus-2018.pdf") },
-                    { title: "Scopus Publications 2017–18", url: asset("documents/research/scopus-2017.pdf") },
-                  ],
-                },
-              ]}
+              groups={documents.scopus}
             />
           </div>
 
@@ -845,30 +838,7 @@ export function ResearchContent() {
               </h3>
             </div>
             <DocumentDirectory
-              groups={[
-                {
-                  label: "Policy & Regulations",
-                  documents: [
-                    { title: "Research Policy", url: asset("documents/research/research-policy.pdf") },
-                    { title: "Research Regulations", url: asset("documents/research/research-regulations.pdf") },
-                  ],
-                },
-                {
-                  label: "Patents & Sponsored Research",
-                  documents: [
-                    { title: "Patents Filed & Granted", url: asset("documents/research/patents.pdf") },
-                    { title: "Sponsored Research Projects", url: asset("documents/research/sponsored-research.pdf") },
-                  ],
-                },
-                {
-                  label: "Research Committees",
-                  documents: [
-                    { title: "Research Advisory Committee", url: asset("documents/research/committee-advisory.pdf") },
-                    { title: "Research Ethics Committee", url: asset("documents/research/committee-ethics.pdf") },
-                    { title: "Research Review Committee", url: asset("documents/research/committee-review.pdf") },
-                  ],
-                },
-              ]}
+              groups={documents.policies}
             />
           </div>
         </div>

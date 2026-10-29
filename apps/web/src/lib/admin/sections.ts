@@ -1,5 +1,6 @@
 import {
   Building2,
+  FileText,
   GraduationCap,
   HardDrive,
   Home,
@@ -66,6 +67,13 @@ export const ADMIN_SECTIONS: AdminSection[] = [
     label: "Departments",
     description: "Everything on a department's own pages.",
     icon: Building2,
+    status: "ready",
+  },
+  {
+    href: "/admin/documents",
+    label: "Page documents",
+    description: "The PDFs listed on NBA, NAAC, NIRF, calendars, cells and more.",
+    icon: FileText,
     status: "ready",
   },
   {
