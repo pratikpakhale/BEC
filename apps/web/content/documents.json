@@ -318,6 +318,24 @@
                   "file": "documents/nba/nba-data-capturing-points-2025.pdf"
                 }
               ]
+            },
+            {
+              "label": "Audited Financial Statements",
+              "description": "Auditor's report with the balance sheet, receipts & payments account and income & expenditure account of the college, audited by Kelur Suvarna S. & Co., Chartered Accountants.",
+              "documents": [
+                {
+                  "title": "Audited Report 2024–25",
+                  "file": "documents/nba/audited-report-2024-25.pdf"
+                },
+                {
+                  "title": "Audited Report 2023–24",
+                  "file": "documents/nba/audited-report-2023-24.pdf"
+                },
+                {
+                  "title": "Audited Report 2022–23",
+                  "file": "documents/nba/audited-report-2022-23.pdf"
+                }
+              ]
             }
           ]
         }
