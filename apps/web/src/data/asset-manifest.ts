@@ -2095,6 +2095,7 @@ export const manifest = {
   "departments/mechanical/faculty/v-p-girisagar.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/mechanical/faculty/v-p-girisagar.webp",
   "departments/mechanical/faculty/v-v-kuppast.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/mechanical/faculty/v-v-kuppast.webp",
   "departments/mechanical/faculty/vivekanand-b-s.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/mechanical/faculty/vivekanand-b-s.webp",
+  "departments/mechanical/faculty/whatsapp-image-2026-11-07-at-10-10-04-4nw37t.webp": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/mechanical/faculty/whatsapp-image-2026-11-07-at-10-10-04-4nw37t.webp",
   "departments/mechanical/newsletters/mechanical-newsletter-apr-2026.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/mechanical/newsletters/mechanical-newsletter-apr-2026.pdf",
   "departments/mechanical/newsletters/mechanical-newsletter-dec-2025.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/mechanical/newsletters/mechanical-newsletter-dec-2025.pdf",
   "departments/mechanical/newsletters/mechanical-newsletter-feb-2026.pdf": "https://pub-11b7012f1df548e482ac3763e2712496.r2.dev/departments/mechanical/newsletters/mechanical-newsletter-feb-2026.pdf",
