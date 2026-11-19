@@ -3,7 +3,13 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import DepartmentSidebar from "@/components/academics/departments/sidebar";
-import type { DataTable, DepartmentData, DocLink, SectionImage } from "@/data/department/department";
+import type {
+  DataTable,
+  DepartmentData,
+  DepartmentSection,
+  DocLink,
+  SectionImage,
+} from "@/data/department/department";
 import type { PhotoWidth } from "@/content/schema/shared";
 import ContentSection from "@/components/academics/departments/content";
 import ContactSection from "@/components/academics/departments/contact-section";
@@ -15,9 +21,16 @@ import { QuickFacts } from "@/components/academics/departments/quick-facts";
 import { PlacementOffersChart } from "@/components/academics/departments/placement-offers-chart";
 
 interface DepartmentLayoutProps {
-  dept: DepartmentData;
+  /**
+   * Everything but the section list. This is a client component, so whatever it
+   * receives is serialized into every prerendered page; the full list is ~95% of
+   * a department's data and would ride along on each of its section URLs.
+   */
+  dept: Omit<DepartmentData, "sections">;
   /** Sidebar id of the section the URL resolves to. */
   activeSectionId: string;
+  /** The section `activeSectionId` names, when it is one of `dept.sections`. */
+  activeSection?: DepartmentSection;
   /** Department root, e.g. /departments/ug/civil-engg. */
   basePath: string;
 }
@@ -422,7 +435,12 @@ function DepartmentTables({ title, tables }: { title?: string; tables: DataTable
   );
 }
 
-export function DepartmentLayout({ dept, activeSectionId, basePath }: DepartmentLayoutProps) {
+export function DepartmentLayout({
+  dept,
+  activeSectionId,
+  activeSection,
+  basePath,
+}: DepartmentLayoutProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const isInitialRender = useRef(true);
 
@@ -631,9 +649,6 @@ export function DepartmentLayout({ dept, activeSectionId, basePath }: Department
     }
 
     // 3. DYNAMIC SECTIONS
-    // Find a section that matches the active section ID
-    const activeSection = dept.sections?.find(s => s.id === activeSectionId);
-
     if (activeSection) {
          if (activeSection.type === "content") {
              return (
