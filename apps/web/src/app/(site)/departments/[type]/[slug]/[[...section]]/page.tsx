@@ -106,7 +106,10 @@ export default async function DepartmentPage({
   }
 
   // Check if this section has a redirectUrl configured
-  const resolvedSection = dept.sections?.find((s) => s.id === resolved.id);
+  // The layout is a client component: it gets this URL's section only, not the
+  // department's whole section list (see DepartmentLayoutProps).
+  const { sections, ...layoutDept } = dept;
+  const resolvedSection = sections?.find((s) => s.id === resolved.id);
   if (resolvedSection && "redirectUrl" in resolvedSection && resolvedSection.redirectUrl) {
     redirect(resolvedSection.redirectUrl);
   }
@@ -205,7 +208,12 @@ export default async function DepartmentPage({
       )}
 
       <div className="container mx-auto px-4 py-12 lg:py-16 relative z-10">
-        <DepartmentLayout dept={dept} activeSectionId={resolved.id} basePath={basePath} />
+        <DepartmentLayout
+          dept={layoutDept}
+          activeSectionId={resolved.id}
+          activeSection={resolvedSection}
+          basePath={basePath}
+        />
       </div>
     </div>
   );
