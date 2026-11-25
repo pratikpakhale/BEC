@@ -10,10 +10,10 @@ import {
 } from "@/data/departments-catalog";
 import { getDepartmentData } from "@/data/department/department";
 
-const APP_DIR = join(process.cwd(), "src", "app");
+// Required by the static export: a metadata route has to say it is built once.
+export const dynamic = "force-static";
 
-/** Real routes that are deliberately never advertised to crawlers. */
-const UNLISTED_SEGMENTS = new Set(["admin", "api"]);
+const APP_DIR = join(process.cwd(), "src", "app");
 
 /**
  * Walk src/app collecting every static route (a directory containing page.tsx),
@@ -26,7 +26,6 @@ function staticRoutes(dir = APP_DIR, base = ""): string[] {
     if (!entry.isDirectory()) continue;
     const name = entry.name;
     if (name.startsWith("[") || name.startsWith("_")) continue;
-    if (UNLISTED_SEGMENTS.has(name)) continue;
     const full = join(dir, name);
     // Route groups — `(site)` — organise files without adding a URL segment.
     if (name.startsWith("(")) {
@@ -46,13 +45,13 @@ function priorityFor(path: string): number {
   return depth <= 1 ? 0.8 : 0.6;
 }
 
+// No `lastModified`: the only date known at build time is the build itself, and
+// stamping all ~390 URLs with it told crawlers the whole site had changed on
+// every deploy, so they re-fetched all of it.
 export default function sitemap(): MetadataRoute.Sitemap {
-  const lastModified = new Date();
-
   const staticEntries: MetadataRoute.Sitemap = ["/", ...staticRoutes()].map(
     (path) => ({
       url: `${SITE_URL}${path}`,
-      lastModified,
       changeFrequency: path === "/" ? "weekly" : "monthly",
       priority: priorityFor(path),
     }),
@@ -68,7 +67,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
         const defaultId = sidebar[0]?.id ?? DEFAULT_DEPARTMENT_SECTION;
         return sidebar.map((item, index) => ({
           url: `${SITE_URL}${departmentSectionHref(base, item.id, defaultId)}`,
-          lastModified,
           changeFrequency: "monthly" as const,
           priority: index === 0 ? 0.7 : 0.6,
         }));

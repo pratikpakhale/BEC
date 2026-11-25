@@ -11,7 +11,7 @@ import { FadeIn } from "../animations/fade-in";
 import { programmes } from "@/data/home/programme";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, GraduationCap } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 
 export function ProgrammesSection() {
   return (

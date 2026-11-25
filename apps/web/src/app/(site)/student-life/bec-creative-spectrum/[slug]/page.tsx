@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { notFound } from "next/navigation";
 import { pageMetadata } from "@/lib/seo";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";

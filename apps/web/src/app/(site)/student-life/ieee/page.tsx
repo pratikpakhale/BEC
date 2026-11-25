@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/link";
 
 import { pageMetadata } from "@/lib/seo";
 import { PageHero } from "@/components/common/page-hero";

@@ -15,7 +15,7 @@ import { FadeIn } from "@/components/animations/fade-in";
 import { PhotoGallery } from "@/components/common/photo-gallery";
 import { asset } from "@/lib/assets";
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/link";
 import { BreadcrumbsJsonLd } from "@/components/seo/jsonld";
 import { pageMetadata } from "@/lib/seo";
 

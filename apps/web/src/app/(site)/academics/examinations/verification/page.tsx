@@ -8,7 +8,7 @@ import {
   FileCheck2,
   Landmark,
 } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 
 export const metadata = pageMetadata({
   title: "Academic Document Verification",

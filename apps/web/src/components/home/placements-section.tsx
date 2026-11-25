@@ -22,7 +22,7 @@ import {
   type BatchStats,
 } from "@/data/home/placement-charts";
 import { ArrowRight, Briefcase } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 
 const PRIMARY = "#EA6A0A";
 

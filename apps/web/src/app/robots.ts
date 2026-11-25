@@ -1,6 +1,9 @@
 import type { MetadataRoute } from "next";
 import { SITE_URL } from "@/lib/seo";
 
+// Required by the static export: a metadata route has to say it is built once.
+export const dynamic = "force-static";
+
 const AI_CRAWLERS = [
   "GPTBot",
   "ChatGPT-User",

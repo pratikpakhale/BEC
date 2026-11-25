@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/link";
 import { Pin, ExternalLink, FileText } from "lucide-react";
 
 import type { NewsListItem } from "@/content/news";

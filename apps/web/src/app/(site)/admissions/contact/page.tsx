@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { Phone, Mail, MapPin, Plane, Train, ArrowUpRight, ExternalLink } from "lucide-react";
 import { pageMetadata } from "@/lib/seo";
 import { AdmissionsHeader } from "@/components/admissions/admissions-header";
