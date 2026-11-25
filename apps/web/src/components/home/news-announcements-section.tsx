@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from "react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { Pin, ChevronLeft, ChevronRight, ArrowRight, FileText } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { newsItems, announcementItems, type NewsListItem } from "@/content/news";

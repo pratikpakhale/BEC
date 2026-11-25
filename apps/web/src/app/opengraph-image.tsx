@@ -69,3 +69,6 @@ export default function OpengraphImage() {
     { ...size },
   );
 }
+
+// Required by the static export: a metadata route has to say it is built once.
+export const dynamic = "force-static";

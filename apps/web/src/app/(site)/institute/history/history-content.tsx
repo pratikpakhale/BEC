@@ -18,7 +18,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { PhotoGallery } from "@/components/common/photo-gallery";
 import { asset } from "@/lib/assets";
-import Link from "next/link";
+import Link from "@/components/link";
 
 const legacyMetrics = [
   {

@@ -8,6 +8,7 @@ Routing guide for anyone (human or AI) working on this repo. **Find your change 
 
 Marketing/info website for **Basaveshwar Engineering College, Bagalkote (BEC)** — `becbgk.edu`.
 Next.js 16 (App Router) + React 19, Turborepo + pnpm monorepo. App lives in `apps/web`.
+The public site is a **static export** (`output: "export"`): no server code, no `redirect()`, no route handlers that read a request. The Admin's routes live in `apps/admin`, a separate deployment reached at `/admin` through a rewrite; its editors and logic stay in `apps/web/src/{components,lib}/admin`.
 **All content is hardcoded in typed TypeScript files under `apps/web/src/data/`.** No CMS.
 
 ## Commands (run from repo root)

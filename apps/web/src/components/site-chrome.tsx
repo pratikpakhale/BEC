@@ -1,5 +1,4 @@
 import type React from "react";
-import { Analytics } from "@vercel/analytics/next";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import { Footer } from "@/components/footer";
 import { Header } from "@/components/header";
@@ -7,7 +6,7 @@ import { OrganizationJsonLd } from "@/components/seo/organization-jsonld";
 
 /**
  * Everything a public page carries besides its own content: the header and
- * footer, the Organization schema, and the two analytics scripts.
+ * footer, the Organization schema, and the analytics script.
  *
  * It is a component rather than just the site layout's body because
  * `not-found.tsx` has to sit at the app root — above the `(site)` group — so it
@@ -25,7 +24,6 @@ export function SiteChrome({ children }: { children: React.ReactNode }) {
         {children}
         <Footer />
       </div>
-      <Analytics />
       {process.env.NODE_ENV === "production" && <GoogleAnalytics gaId="G-6F6X7N6R73" />}
     </>
   );

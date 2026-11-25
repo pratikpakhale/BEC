@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from "@/components/link";
 import { Construction, ArrowUpRight } from "lucide-react";
 import { PlacementsHeader } from "@/components/placements/placements-header";
 import { BreadcrumbsJsonLd } from "@/components/seo/jsonld";

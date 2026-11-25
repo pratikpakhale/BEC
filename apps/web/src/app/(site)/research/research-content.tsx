@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/link";
 import { useMemo, useState } from "react";
 import {
   Award,

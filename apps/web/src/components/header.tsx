@@ -1,8 +1,7 @@
 "use client";
 
-import { type ComponentProps, useEffect, useLayoutEffect, useRef, useState } from "react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import Link from "@/components/link";
 import { Menu, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -23,24 +22,11 @@ import { Sheet, SheetContent, SheetTrigger, SheetTitle } from "@/components/ui/s
 import { navigationData } from "@/data/navigation";
 import { NavigationItem } from "@/types/navigation";
 import { isGroup, isLink } from "@/utils/navigation-gaurd";
+// Imported, not referenced from /public, so it ships under a hashed URL the
+// browser can cache for good instead of re-requesting it on every page load.
+import logoCrest from "../../public/logo-crest.png";
 
 const useIsomorphicLayoutEffect = typeof window !== "undefined" ? useLayoutEffect : useEffect;
-
-// Client-side navigation with prefetch on intent instead of viewport — same
-// idiom as the departments sidebar, keeps per-page edge requests down.
-function IntentLink({ href, ...props }: ComponentProps<typeof Link>) {
-  const router = useRouter();
-  const prefetch = () => router.prefetch(href.toString());
-  return (
-    <Link
-      href={href}
-      prefetch={false}
-      onMouseEnter={prefetch}
-      onFocus={prefetch}
-      {...props}
-    />
-  );
-}
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -105,9 +91,9 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between gap-2 sm:gap-4 py-2 sm:py-3">
           {/* Logo */}
-          <IntentLink href="/" className="flex min-w-0 flex-1 items-center gap-5 sm:gap-7 lg:gap-9">
+          <Link href="/" className="flex min-w-0 flex-1 items-center gap-5 sm:gap-7 lg:gap-9">
             <img
-              src="/logo-crest.png"
+              src={logoCrest.src}
               alt="Basaveshwar Engineering College, Bagalkote logo"
               style={logoHeight ? { height: `${logoHeight * 1.25}px` } : undefined}
               className="h-12 max-h-24 w-auto shrink-0 object-contain -ml-2 sm:-ml-4 lg:-ml-6 md:h-24 md:max-h-none lg:h-28"
@@ -133,7 +119,7 @@ export function Header() {
                 S. Nijalingappa Vidyanagar, Bagalkote - 587 102, Karnataka, India
               </span>
             </div>
-          </IntentLink>
+          </Link>
 
           {/* Institution codes */}
           <details
@@ -192,7 +178,6 @@ export function Header() {
                     {!item.items && item.href ? (
                       <Link
                         href={item.href}
-                        prefetch={false}
                         className="block py-2 font-medium hover:text-primary"
                         onClick={() => setMobileMenuOpen(false)}
                       >
@@ -226,7 +211,6 @@ export function Header() {
                                     <Link
                                       key={nested.title}
                                       href={nested.href}
-                                      prefetch={false}
                                       className="block text-sm py-1 text-muted-foreground hover:text-primary"
                                       onClick={() => setMobileMenuOpen(false)}
                                     >
@@ -238,7 +222,6 @@ export function Header() {
                             ) : (
                               <Link
                                 href={sub.href}
-                                prefetch={false}
                                 className="block text-sm py-1 text-muted-foreground hover:text-primary"
                                 onClick={() => setMobileMenuOpen(false)}
                               >
@@ -269,7 +252,7 @@ export function Header() {
                 {navigationData.map((item: NavigationItem, index: number) => (
                   <NavigationMenuItem key={item.title}>
                     {!item.items && item.href ? (
-                      <IntentLink
+                      <Link
                         href={item.href}
                         className={cn(
                           navigationMenuTriggerStyle(),
@@ -277,7 +260,7 @@ export function Header() {
                         )}
                       >
                         {item.title}
-                      </IntentLink>
+                      </Link>
                     ) : (
                       <>
                     <NavigationMenuTrigger className="text-sm font-medium bg-transparent text-primary-foreground h-12 px-3 2xl:px-4">
@@ -299,11 +282,11 @@ export function Header() {
                                   asChild
                                   className="block rounded-md p-4 hover:bg-white hover:text-primary transition-colors"
                                 >
-                                  <IntentLink href={link.href}>
+                                  <Link href={link.href}>
                                     <div className="text-sm font-medium">
                                       {link.title}
                                     </div>
-                                  </IntentLink>
+                                  </Link>
                                 </NavigationMenuLink>
                               ))}
                             </div>
@@ -329,9 +312,9 @@ export function Header() {
                                           asChild
                                           className="block rounded-md px-4 py-2.5 text-sm hover:bg-white hover:text-primary transition-colors"
                                         >
-                                          <IntentLink href={nested.href}>
+                                          <Link href={nested.href}>
                                             {nested.title}
-                                          </IntentLink>
+                                          </Link>
                                         </NavigationMenuLink>
                                       </li>
                                     ))}
@@ -352,11 +335,11 @@ export function Header() {
                                     asChild
                                     className="block rounded-md p-4 hover:bg-white hover:text-primary transition-colors"
                                   >
-                                    <IntentLink href={nested.href}>
+                                    <Link href={nested.href}>
                                       <div className="text-sm font-medium">
                                         {nested.title}
                                       </div>
-                                    </IntentLink>
+                                    </Link>
                                   </NavigationMenuLink>
                                 ))}
                             </div>

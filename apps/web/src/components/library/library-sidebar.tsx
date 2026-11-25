@@ -1,7 +1,7 @@
 // File: src/components/library/library-sidebar.tsx
 "use client";
 
-import Link from "next/link";
+import Link from "@/components/link";
 import { usePathname } from "next/navigation";
 import {
   BookOpen,

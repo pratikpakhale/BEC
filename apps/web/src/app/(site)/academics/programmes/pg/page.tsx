@@ -3,7 +3,7 @@ import { ProgrammeHeader } from "@/components/academics/programmes/programme-hea
 import { CheckCircle2, GraduationCap, Building2, Wallet, Microscope, type LucideIcon } from "lucide-react";
 import { FadeIn } from "@/components/animations/fade-in";
 import { BreadcrumbsJsonLd } from "@/components/seo/jsonld";
-import Link from "next/link";
+import Link from "@/components/link";
 
 export const metadata = pageMetadata({
   title: "M.Tech Postgraduate Programmes",

@@ -229,6 +229,23 @@ function toDeployState(raw: string): DeployState {
  * status would happily hand the Editor a preview URL that nobody else can see.
  * Only the Production deployment answers "is my change on becbgk.edu yet?".
  */
+/** The Vercel project that serves the public site. */
+const SITE_PROJECT = "becbgk";
+
+/**
+ * Which of the site's environments a GitHub deployment belongs to, or null when
+ * it is another project's. The repo deploys two Vercel projects, the site and
+ * the Admin, so Vercel names environments per project ("Production – becbgk");
+ * with a single project the name is bare ("Production"). Only the site's
+ * deployment says whether a published change is live.
+ */
+function siteEnvironment(environment: string): "production" | "preview" | null {
+  const match = /^(production|preview)(?:\s+[-–—]\s+(.+))?$/i.exec(environment.trim());
+  if (!match) return null;
+  if (match[2] && match[2] !== SITE_PROJECT) return null;
+  return match[1].toLowerCase() as "production" | "preview";
+}
+
 export async function getDeployStatus(sha: string): Promise<DeployStatus> {
   const deployments = await gh<{ id: number; environment: string }[]>(
     `/repos/${OWNER}/${REPO}/deployments?sha=${sha}&per_page=20`,
@@ -238,10 +255,9 @@ export async function getDeployStatus(sha: string): Promise<DeployStatus> {
   // URL would tell an Editor their change is live when the public cannot see
   // it. On a sandbox branch there is never a Production deployment, so holding
   // out for one would leave the banner spinning at "pending" for ever.
-  const isProduction = (d: { environment: string }) => /^production$/i.test(d.environment);
-  const deployment = isProductionBranch
-    ? deployments.find(isProduction)
-    : deployments.find((d) => !isProduction(d));
+  const deployment = deployments.find(
+    (d) => siteEnvironment(d.environment) === (isProductionBranch ? "production" : "preview"),
+  );
 
   // Vercel creates the deployment a few seconds after the push, so "no
   // deployment yet" is pending, not failure.

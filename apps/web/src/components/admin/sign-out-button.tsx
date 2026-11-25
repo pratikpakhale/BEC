@@ -1,7 +1,7 @@
 "use client";
 
 import { LogOut } from "lucide-react";
-import { signOut } from "@/app/admin/actions";
+import { signOut } from "@/lib/admin/actions";
 import { Button } from "@/components/ui/button";
 import { useConfirmDiscard } from "@/lib/admin/unsaved-changes";
 
