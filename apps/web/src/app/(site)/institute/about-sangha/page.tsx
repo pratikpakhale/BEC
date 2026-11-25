@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { ArrowUpRight, Mail, Phone } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/link";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { asset } from "@/lib/assets";

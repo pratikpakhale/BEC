@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+import Link from "@/components/link";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Wifi, Monitor, BookOpen, Warehouse, Building, Stethoscope, Store, Podcast, ArrowRight } from "lucide-react";

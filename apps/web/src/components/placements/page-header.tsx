@@ -2,7 +2,7 @@
 
 import { cn } from "@/lib/utils";
 
-import Link from "next/link";
+import Link from "@/components/link";
 import { ChevronRight, Home } from "lucide-react";
 
 interface PageHeaderProps {

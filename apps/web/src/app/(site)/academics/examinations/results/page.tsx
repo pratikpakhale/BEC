@@ -1,7 +1,7 @@
 import { pageMetadata } from "@/lib/seo";
 import { FadeIn } from "@/components/animations/fade-in";
 import { GraduationCap, ArrowRight } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { Card, CardContent } from "@/components/ui/card";
 
 export const metadata = pageMetadata({

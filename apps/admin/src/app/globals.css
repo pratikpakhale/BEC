@@ -1,0 +1,7 @@
+@import "../../../web/src/app/globals.css";
+
+/* The Admin's screens live in the web app's source tree, outside the folder
+   Tailwind scans by default. */
+@source "../../../web/src/components/admin";
+@source "../../../web/src/components/ui";
+@source "../../../web/src/lib/admin";

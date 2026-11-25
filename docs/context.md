@@ -9,7 +9,7 @@ The public website for **Basaveshwar Engineering College, Bagalkote (BEC)** — 
 ## Tech at a glance
 
 - **Next.js 16** (App Router) + **React 19**, TypeScript strict.
-- **Turborepo + pnpm** monorepo. The only app is `apps/web`.
+- **Turborepo + pnpm** monorepo. `apps/web` is the public site, built as a static export. `apps/admin` holds the Admin's routes and is deployed separately (see its README).
 - **Tailwind CSS v4** + **shadcn/ui** (Radix primitives), Lucide icons, Motion for animation.
 - **Content is hardcoded** in typed TS files under `apps/web/src/data/`. No CMS, no MDX, no DB.
 - Assets currently in `apps/web/public/`; migrating to **Cloudflare R2** (see [asset-pipeline.md](asset-pipeline.md)).

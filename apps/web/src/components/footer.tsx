@@ -7,7 +7,7 @@ import {
   Instagram,
   Linkedin,
 } from "lucide-react";
-import Link from "next/link";
+import Link from "@/components/link";
 import { asset } from "@/lib/assets";
 
 const internalQuickLinks = [

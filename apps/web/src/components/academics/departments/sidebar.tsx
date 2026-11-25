@@ -1,7 +1,6 @@
 "use client";
 
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import Link from "@/components/link";
 import { motion } from "motion/react";
 import { cn } from "@/lib/utils";
 import { departmentSectionHref } from "@/data/departments-catalog";
@@ -88,7 +87,6 @@ function SectionLinks({
   variant: "sidebar" | "chip";
   className?: string;
 }) {
-  const router = useRouter();
 
   return (
     <nav aria-label="Department sections" className={className}>
@@ -161,12 +159,6 @@ function SectionLinks({
             key={item.id}
             href={href}
             aria-current={isActive ? "page" : undefined}
-            // Every section carries the whole department payload, so prefetching a
-            // full menu on sight would cost ~1MB on a connection least able to
-            // afford it. Fetch on intent instead — router.prefetch dedupes.
-            prefetch={false}
-            onMouseEnter={() => router.prefetch(href)}
-            onFocus={() => router.prefetch(href)}
             // Switching section keeps your place on the page; the layout pulls the
             // view back only when the section start has scrolled out of reach.
             scroll={false}
